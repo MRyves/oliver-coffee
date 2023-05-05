@@ -1,39 +1,20 @@
 import Image from "next/image";
-import styles from "../styles/index.module.css";
-import homeCoffeePic from "../public/home-coffee.jpg";
 import coffeeDropPic from "../public/coffee-drops.jpg";
+import sharingCoffeePic from "../public/sharing-coffee.jpg";
+import coffeeFarmerPic from "../public/coffee-farmer.jpg";
+import HomeBanner from "./components/HomeBanner";
 
 export default function Home() {
   return (
     <>
-      <div id="home-banner" className={styles.homeBanner}>
-        <div id="image-container" className={styles.imageContainer}>
-          <Image
-            src={homeCoffeePic}
-            alt="Home Coffee picture"
-            style={{ objectFit: "cover", objectPosition: "35% center" }}
-            priority
-            fill
-          />
-        </div>
-        <div className="relative z-10 flex flex-wrap items-center px-5 pt-16">
-          <h1 className="flex-1 basis-full text-white text-2xl font-bold font-sans md:text-6xl">
-            Traditional
-            <br />
-            vietnamese
-            <br />
-            Coffee
-          </h1>
-          <h3 className="flex-1 basis-full text-white text-xl md:text-3xl font-sans mt-6">
-            Experice this unique
-            <br />
-            coffee with us!
-          </h3>
-        </div>
-      </div>
-      <section id="explanaition-anker" className="px-5">
-        <h2 className="text-2xl md:text-3xl">What is vietnamese coffee?</h2>
-        <h3 className="text-xl md:text-2xl italic">and why we love it...</h3>
+      <HomeBanner />
+      <section id="explanaition-anker" className="px-7">
+        <h2 className="block text-2xl md:text-3xl">
+          What is vietnamese coffee?
+        </h2>
+        <h3 className="block text-xl md:text-2xl italic">
+          and why we love it...
+        </h3>
         <div className="flex justify-between mt-5">
           <div className="hidden md:block w-1/3 h-fit">
             <Image
@@ -52,6 +33,50 @@ export default function Home() {
               aliquam nisi eius laborum.
             </span>
           </div>
+        </div>
+      </section>
+      <section className="px-7 mt-5">
+        <h2 className="text-2xl md:text-3xl text-right">What we do</h2>
+        <h3 className="text-xl md:text-2xl text-right italic">
+          ... and why we do it
+        </h3>
+        <div className="flex justify-between mt-5">
+          <div className="order-last hidden md:block w-1/3 h-fit">
+            <Image
+              src={sharingCoffeePic}
+              alt="Sharing coffee image"
+              priority={false}
+              className="rounded-md opacity-90"
+              style={{ objectFit: "contain", objectPosition: "center" }}
+            />
+          </div>
+          <div className="md:w-3/5 self-center">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia
+            fugit, hic velit non molestias ad eveniet quaerat officiis labore
+            soluta voluptatum natus debitis nulla voluptatibus corrupti
+            recusandae maxime necessitatibus.
+          </div>
+        </div>
+      </section>
+      <section className="px-7 mt-5">
+        <h2 className="text-2xl md:text-3xl">Are you interested?</h2>
+        <h3 className="text-xl md:text-2xl italic">how about some coffee...</h3>
+        <div className="flex justify-between mt-5">
+        <div className="hidden md:block w-1/3 h-fit">
+          <Image
+            src={coffeeFarmerPic}
+            alt="Coffee farmer image"
+            priority={false}
+            className="rounded-md opacity-90"
+            style={{ objectFit: "contain", objectPosition: "center" }}
+          />
+        </div>
+        <div className="md:w-3/5 self-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad
+          fugiat esse, alias, optio eveniet consectetur ab numquam et possimus
+          perferendis quo repudiandae iusto odio! Repellendus, dolores aliquid?
+          Vitae, repellendus.
+        </div>
         </div>
       </section>
     </>
