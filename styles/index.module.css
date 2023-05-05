@@ -1,6 +1,6 @@
 .homeBanner {
   position: relative;
-  height: calc(100vh-64px);
+  height: calc(100vh - 220px);
   width: 100%;
 }
 
@@ -16,6 +16,9 @@
 
 /* Styles for mobile devices */
 @media screen and (max-width: 767px) {
+  .homeBanner {
+    height: calc(100vh - 120px);
+  }
   .imageContainer {
     padding-bottom: 140%; /* 1:1 aspect ratio */
   }
