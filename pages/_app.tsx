@@ -1,6 +1,21 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import Navbar from "./components/Navbar";
+import { Anonymous_Pro, Major_Mono_Display } from "next/font/google";
+
+const font = Anonymous_Pro({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: '--font-inter'
+});
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Navbar className={`${font.variable} font-sans bg-white`}></Navbar>
+      <main className={`${font.variable} h-full`}>
+        <Component {...pageProps} />
+      </main>
+    </>
+  );
 }
