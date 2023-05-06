@@ -29,7 +29,7 @@ export default function CoffeePage() {
               aliquam nisi eius laborum. Lorem, ipsum dolor sit amet consectetur
               adipisicing elit. Ipsam, ea officiis? Sed nulla labore aut,
               repudiandae voluptatibus est fuga error modi earum tempora
-              voluptate, nihil ducimus sunt dicta in incidunt.
+              voluptate, nihil ducimus sunt dicta in incidunt..
             </span>
           </div>
         </div>

@@ -22,13 +22,13 @@ export default function Navbar(props: NavbarProps) {
         <div className="hidden md:block md:basis-1/3">
             <div className="flex items-baseline space-x-4">
               <Link
-                href="/Coffee"
+                href="/coffee"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
                 Coffee
               </Link>
               <Link
-                href="/Story"
+                href="/story"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
                 Our Story
@@ -65,10 +65,10 @@ export default function Navbar(props: NavbarProps) {
               <Link href="/" className="text-black block px-3 py-2 rounded-md text-base font-medium">
                   Home
               </Link>
-              <Link href="/Coffee" className="text-black block px-3 py-2 rounded-md text-base font-medium">
+              <Link href="/coffee" className="text-black block px-3 py-2 rounded-md text-base font-medium">
                   Coffee
               </Link>
-              <Link href="/Story" className="text-black block px-3 py-2 rounded-md text-base font-medium">
+              <Link href="/story" className="text-black block px-3 py-2 rounded-md text-base font-medium">
                   Our Story
               </Link>
             </div>
