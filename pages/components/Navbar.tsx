@@ -28,7 +28,7 @@ export default function Navbar(props: NavbarProps) {
                 Coffee
               </Link>
               <Link
-                href="/story"
+                href="/Story"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
                 Our Story
