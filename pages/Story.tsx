@@ -18,7 +18,7 @@ export default function StoryPage() {
       </p>
     </div>
     <div className="w-full flex justify-center mt-10">
-        <Title text="This page is under construction" />
+        <Title classNames="text-center" text="This page is under construction" />
     </div>
     </>
   );
