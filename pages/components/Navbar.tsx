@@ -65,11 +65,11 @@ export default function Navbar(props: NavbarProps) {
               <Link href="/" className="text-black block px-3 py-2 rounded-md text-base font-medium">
                   Home
               </Link>
-              <Link href="/about" className="text-black block px-3 py-2 rounded-md text-base font-medium">
-                  About
+              <Link href="/Coffee" className="text-black block px-3 py-2 rounded-md text-base font-medium">
+                  Coffee
               </Link>
-              <Link href="/contact" className="text-black block px-3 py-2 rounded-md text-base font-medium">
-                  Contact
+              <Link href="/Story" className="text-black block px-3 py-2 rounded-md text-base font-medium">
+                  Our Story
               </Link>
             </div>
           </div>
