@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <section id="explanaition-anker" className="px-7">
+      <section id="explanaition-anker" className="px-7 mt-3">
         <h2 className="block text-2xl md:text-3xl">
           What is vietnamese coffee?
         </h2>
