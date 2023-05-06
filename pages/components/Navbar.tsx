@@ -28,7 +28,7 @@ export default function Navbar(props: NavbarProps) {
                 Coffee
               </Link>
               <Link
-                href="/contact"
+                href="/story"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
                 Our Story
@@ -41,23 +41,22 @@ export default function Navbar(props: NavbarProps) {
             </Link>
           </div>
           <div className="basis-1/3 flex justify-end space-x-4 text-black">
-            <FaInstagram className="h-6 w-6" />
-            <FaEnvelope className="h-6 w-6" />
-          </div>
+            <FaInstagram className="fill-current h-6 w-6" />
+            <FaEnvelope className="fill-current h-6 w-6" />
           
-          <div className="md:hidden">
           <button
               type="button"
-              className="text-black focus:outline-none focus:text-black"
+              className="md:hidden text-black focus:outline-none focus:text-black h-6 w-6"
               onClick={handleToggle}
             >
               {menuOpen ? (
-                <FaTimes className="h-6 w-6" />
+                <FaTimes className="fill-current h-6 w-6" />
               ) : (
-                <FaBars className="h-6 w-6" />
+                <FaBars className="fill-current h-6 w-6" />
               )}
             </button>
-          </div>
+            </div>
+
         </div>
       </div>
       {menuOpen && (
