@@ -22,7 +22,7 @@ export default function Navbar(props: NavbarProps) {
         <div className="hidden md:block md:basis-1/3">
             <div className="flex items-baseline space-x-4">
               <Link
-                href="/coffee"
+                href="/Coffee"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
                 Coffee
