@@ -60,16 +60,9 @@ export default function OrderForm() {
               We like to keep things simple and therefor you have the option to
               give your mobile phone number to hear from us via WhatsApp or SMS.
               <br />
-              Don't worry, we will not give your data to anyone!
+              Don&apos;t worry, we will not give your data to anyone!
             </div>
           </Tooltip>
-          <div
-            id="phone-number-info"
-            role="tooltip"
-            className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm"
-          >
-            The tooltip :)
-          </div>
           <input
             id="inp-phonenumber"
             name="phonenumber"
