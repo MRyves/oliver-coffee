@@ -21,9 +21,6 @@
   -webkit-backface-visibility: hidden;
 }
 
-.cardFront {
-}
-
 .cardBack {
   transform: rotateY(180deg);
 }
