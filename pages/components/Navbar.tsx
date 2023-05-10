@@ -42,7 +42,9 @@ export default function Navbar(props: NavbarProps) {
           </div>
           <div className="basis-1/3 flex justify-end space-x-4 text-black">
             <FaInstagram className="fill-current h-6 w-6" />
+            <Link href="/contact">
             <FaEnvelope className="fill-current h-6 w-6" />
+            </Link>
           
           <button
               type="button"
