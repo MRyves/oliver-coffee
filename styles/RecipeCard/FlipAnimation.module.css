@@ -1,0 +1,27 @@
+.exit {
+    transform: rotateY(0deg);
+}
+
+.exitActive {
+    transform: rotateY(180deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.exitDone {
+    transform: rotateY(180deg);
+}
+
+.enter {
+    transform: rotateY(180deg);
+}
+
+.enterActive {
+    transform: rotateY(0deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(.57,.21,.69,1.25);
+}
+
+.enterDone {
+    transform: rotateY(0deg);
+}

@@ -64,7 +64,7 @@ export default function CoffeePage() {
               blanditiis placeat doloribus praesentium nemo.
             </span>
             <p className="text-center mt-2">
-              <Link href="/story">
+              <Link href="/recipes">
                 <button
                   className="p-2 rounded text-white"
                   style={{ backgroundColor: "#40AFBD" }}

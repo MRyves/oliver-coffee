@@ -1,0 +1,55 @@
+.card {
+  height: 480px;
+  width: 100%;
+  position: relative;
+
+  perspective: 100px;
+
+  transform-style: preserve-3d;
+  transition: transform 1000ms;
+}
+
+.cardFront,
+.cardBack {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.cardFront {
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+}
+
+.cardFlipEnter {
+  transform: rotateY(180deg);
+}
+
+.cardFlipEnterActive {
+  transform: rotateY(0deg);
+  transition: transform;
+}
+
+.cardFlipEnterDone {
+  transform: rotateY(0deg);
+}
+
+.cardFlipExit {
+  transform: rotateY(0deg);
+}
+
+.cardFlipExitActive {
+  transform: rotateY(180deg);
+  transition: transform;
+}
+
+.cardFlipExitDone {
+  transform: rotateY(180deg);
+}
