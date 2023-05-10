@@ -3,23 +3,21 @@ import coffeeDropPic from "../public/coffee-drops.jpg";
 import sharingCoffeePic from "../public/sharing-coffee.jpg";
 import coffeeFarmerPic from "../public/coffee-farmer.jpg";
 import HomeBanner from "./components/HomeBanner";
+import Title from "./components/Title";
+import Subtitle from "./components/Subtitle";
 
 export default function Home() {
   return (
     <>
       <HomeBanner />
       <section id="explanaition-anker" className="px-7 mt-3">
-        <h2 className="block text-2xl md:text-3xl">
-          What is vietnamese coffee?
-        </h2>
-        <h3 className="block text-xl md:text-2xl italic">
-          and why we love it...
-        </h3>
-        <div className="flex justify-between mt-5">
-          <div className="hidden md:block w-1/3 h-fit">
+        <Title text="What is vietnamese coffee?" />
+        <Subtitle text="and why we love it..." />
+        <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
+          <div className="block w-full md:w-1/3 h-fit">
             <Image
               src={coffeeDropPic}
-              priority={false}
+              priority={true}
               className="rounded-md opacity-90"
               style={{ objectFit: "contain", objectPosition: "center" }}
               alt="Dripping coffee image"
@@ -35,13 +33,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="px-7">
+        <hr className="h-px my-8 mx-auto" />
+      </div>
       <section className="px-7 mt-5">
-        <h2 className="text-2xl md:text-3xl text-right">What we do</h2>
-        <h3 className="text-xl md:text-2xl text-right italic">
-          ... and why we do it
-        </h3>
-        <div className="flex justify-between mt-5">
-          <div className="order-last hidden md:block w-1/3 h-fit">
+        <Title text="What we do" classNames="text-right" />
+        <Subtitle text="... and why we do it" classNames="text-right" />
+        <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
+          <div className="md:order-last block w-full md:w-1/3 h-fit">
             <Image
               src={sharingCoffeePic}
               alt="Sharing coffee image"
@@ -50,7 +49,7 @@ export default function Home() {
               style={{ objectFit: "contain", objectPosition: "center" }}
             />
           </div>
-          <div className="md:w-3/5 self-center">
+          <div className="md:w-3/5 self-center text-right">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia
             fugit, hic velit non molestias ad eveniet quaerat officiis labore
             soluta voluptatum natus debitis nulla voluptatibus corrupti
@@ -58,25 +57,28 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="px-7">
+        <hr className="h-px my-8 mx-auto" />
+      </div>
       <section className="px-7 mt-5">
-        <h2 className="text-2xl md:text-3xl">Are you interested?</h2>
-        <h3 className="text-xl md:text-2xl italic">how about some coffee...</h3>
-        <div className="flex justify-between mt-5">
-        <div className="hidden md:block w-1/3 h-fit">
-          <Image
-            src={coffeeFarmerPic}
-            alt="Coffee farmer image"
-            priority={false}
-            className="rounded-md opacity-90"
-            style={{ objectFit: "contain", objectPosition: "center" }}
-          />
-        </div>
-        <div className="md:w-3/5 self-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad
-          fugiat esse, alias, optio eveniet consectetur ab numquam et possimus
-          perferendis quo repudiandae iusto odio! Repellendus, dolores aliquid?
-          Vitae, repellendus.
-        </div>
+        <Title text="Are you interested?" />
+        <Subtitle text="how about some coffee..." />
+        <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
+          <div className="block w-full md:w-1/3 h-fit">
+            <Image
+              src={coffeeFarmerPic}
+              alt="Coffee farmer image"
+              priority={false}
+              className="rounded-md opacity-90"
+              style={{ objectFit: "contain", objectPosition: "center" }}
+            />
+          </div>
+          <div className="md:w-3/5 self-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad
+            fugiat esse, alias, optio eveniet consectetur ab numquam et possimus
+            perferendis quo repudiandae iusto odio! Repellendus, dolores
+            aliquid? Vitae, repellendus.
+          </div>
         </div>
       </section>
     </>
