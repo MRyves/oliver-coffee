@@ -47,7 +47,7 @@ export default function RecipeCard(props: RecipeCardProps) {
             Ingredients
           </h5>
           <ul className="tracking-tight list-disc list-inside">
-            {props.ingredients.map((i) => (
+            {props.ingredients?.map((i) => (
               <li key={i}>{i}</li>
             ))}
           </ul>
