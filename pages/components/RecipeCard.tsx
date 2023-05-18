@@ -46,16 +46,16 @@ export default function RecipeCard(props: RecipeCardProps) {
           <h5 className="text-xl font-bold tracking-tight text-gray-900 underline">
             Ingredients
           </h5>
-          <ol className="tracking-tight">
+          <ul className="tracking-tight list-disc list-inside">
             {props.ingredients.map((i) => (
               <li key={i}>{i}</li>
             ))}
-          </ol>
+          </ul>
           <h5 className="text-xl font-bold tracking-tight text-gray-900 mt-3">
             Directions
           </h5>
-          <p>{props.directions}</p>
-          <p className="italic">{props.tip}</p>
+          <p className="mb-2">{props.directions}</p>
+          <p className="italic" dangerouslySetInnerHTML={{__html: props.tip || ''}}></p>
         </div>
       </div>
     </CSSTransition>

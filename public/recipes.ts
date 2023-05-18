@@ -18,11 +18,11 @@ const recipes: Recipe[] = [
                 Condense milk takes a while to fully mix with the coffee.
                 Traditionaly this coffee is served as an ice coffee, but feel free
                 to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+    tip: "Tipp from the locals:<br /> Put the ingredients in a handshaker and shake shake shake...",
   },
   {
     id: "caphe sua",
-    name: "C&#224; ph&#234; s&#361;a &#273;&#225;",
+    name: "C&#224; ph&#234; s&#7919;a &#273;&#225;",
     desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
     ingredients: [
       "45ml Oliver Coffee",
@@ -34,71 +34,69 @@ const recipes: Recipe[] = [
             Condense milk takes a while to fully mix with the coffee.
             Traditionaly this coffee is served as an ice coffee, but feel free
             to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+    tip: "Tipp from the locals:<br /> Put the ingredients in a handshaker and shake shake shake...",
   },
   {
     id: "caphe latte nam",
-    name: "C&#224; ph&#234; s&#361;a &#273;&#225;",
-    desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    name: "C&#224; ph&#234; b&#7841;c x&#236;u",
+    desc: "The vietnamese Latte. Add a little vietnam-vibe to your café-latte.",
     ingredients: [
-      "45ml Oliver Coffee",
+      "30ml Oliver Coffee",
       "15 - 20ml Condense Milk",
+      "25ml Milk",
       "Optional: Ice",
     ],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the condese milk. Mix well!
+            Pour the coffee in your glass and add the condese milk and your choice of milk. Mix well!
             Condense milk takes a while to fully mix with the coffee.
             Traditionaly this coffee is served as an ice coffee, but feel free
             to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+    tip: "Tipp from Yves:<br /> Oat-Milk works like a charm...",
   },
 {
     id: "caphe latte",
-    name: "C&#224; ph&#234; s&#361;a &#273;&#225;",
-    desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    name: "Café-Latte",
+    desc: "Not just like your everyday latte, the vietnam coffee flavor gives your latte a completly different experience.",
     ingredients: [
-      "45ml Oliver Coffee",
-      "15 - 20ml Condense Milk",
+      "30ml Oliver Coffee",
+      "25ml Milk",
       "Optional: Ice",
     ],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the condese milk. Mix well!
-            Condense milk takes a while to fully mix with the coffee.
-            Traditionaly this coffee is served as an ice coffee, but feel free
-            to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+            Pour the coffee in your glass and add your choice of milk. Feel free to experiment with the milk you add.
+            Oat-Milk usualy goes very well with vietnamese coffee.`,
   },
   {
     id: "caphe coconut",
-    name: "C&#224; ph&#234; s&#361;a &#273;&#225;",
+    name: "C&#224; ph&#234; d&#7915;a",
     desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
     ingredients: [
       "45ml Oliver Coffee",
-      "15 - 20ml Condense Milk",
+      "25ml Coconut Milk",
       "Optional: Ice",
     ],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the condese milk. Mix well!
-            Condense milk takes a while to fully mix with the coffee.
-            Traditionaly this coffee is served as an ice coffee, but feel free
+            Pour the coffee in your glass and add the coconut milk. Mix well!
+            Traditionaly this coffee is served as an iced coffee, but feel free
             to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+    tip: "Tipp from the locals:<br /> Put the ingredients in a handshaker and shake shake shake...",
   },
     {
     id: "caphe salted",
-    name: "C&#224; ph&#234; s&#361;a &#273;&#225;",
-    desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    name: "C&#224; ph&#234; mu&#245;i",
+    desc: "Coffee with salt? I know, sounds weird, but give it a try, this experience will surprise you and the pinch of salt does magic to the taste.",
     ingredients: [
       "45ml Oliver Coffee",
-      "15 - 20ml Condense Milk",
-      "Optional: Ice",
+      "25ml Condense Milk",
+      "5ml Milk",
+      "30ml Non-Dairy Creamer",
+      "A pinch of Himalaya salt",
     ],
-    directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the condese milk. Mix well!
-            Condense milk takes a while to fully mix with the coffee.
-            Traditionaly this coffee is served as an ice coffee, but feel free
-            to heat the mixture again to enjoy a warm version.`,
-    tip: "Tipp from the locals: Put the ingredients in a handshaker and shake shake shake...",
+    directions: `Brew the Oliver Coffee like you woud do for simple black coffee. 
+    First add the condense milk, then the Oliver Coffee with the normal milk.
+    Top it with the non-dairy creamer and add the pinch of salt as a final step.
+    This coffee is usually served in glasses so all the different layers of ingredients are visible.
+    Mix with a spoon before drinking.`,
   },
 
 ];
