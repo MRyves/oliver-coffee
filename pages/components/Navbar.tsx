@@ -1,6 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { FaBars, FaEnvelope, FaInstagram, FaMailBulk, FaMailchimp, FaTimes } from "react-icons/fa";
+
+import LogoWhite from "../../public/logos/logo-white.png";
+import LogoIcon from "../../public/logos/logo-icon.jpg";
 
 
 interface NavbarProps {
@@ -17,10 +21,10 @@ export default function Navbar(props: NavbarProps) {
 
     return (
     <nav className={props.className}>
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-        <div className="hidden md:block md:basis-1/3">
-            <div className="flex items-baseline space-x-4">
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 md:h-[100px]">
+        <div className="flex items-center justify-between h-full">
+        <div className="hidden md:block md:basis-1/3 h-full">
+            <div className="flex items-center space-x-4 h-full">
               <Link
                 href="/coffee"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
@@ -35,9 +39,10 @@ export default function Navbar(props: NavbarProps) {
               </Link>
             </div>
           </div>
-          <div className="flex grow shrink-0 basis-0 items-center justify-center mx-auto text-center">
-            <Link href="/" className="text-black font-bold text-2xl">
-              Oliver Coffee
+          <div className="flex grow shrink-0 basis-0 items-center justify-start md:justify-center mx-auto">
+            <Link href="/" className="py-2 md:py-0">
+              <Image src={LogoWhite} style={{filter: 'invert(100%)'}} height={120} alt="Oliver Coffee Logo" className="hidden md:block" priority/>
+              <span><Image src={LogoIcon} style={{filter: 'invert(100%)'}} height={50} alt="Oliver Coffee Logo" className="inline-block md:hidden" priority />liver</span>
             </Link>
           </div>
           <div className="basis-1/3 flex justify-end space-x-4 text-black">
