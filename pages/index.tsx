@@ -23,12 +23,17 @@ export default function Home() {
               alt="Dripping coffee image"
             />
           </div>
-          <div className="md:w-3/5 self-center">
+          <div className="md:w-3/5 self-center pb-2">
             <span>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              porro consequatur sapiente voluptatum magni blanditiis aut alias,
-              similique soluta, a aliquid dolore provident iure nesciunt nihil
-              aliquam nisi eius laborum.
+              I love Vietnamese coffee for its unique flavor combination of
+              dark-roasted beans and sweetened condensed milk. The taste is
+              smooth and indulgent, leaving me wanting more. The brewing process
+              encourages mindfulness and appreciation for simplicity. Whether I
+              want it hot or iced, black or with milk, Vietnamese coffee caters
+              to my preferences. Its rich history reflects resilience and
+              cultural influences. Overall, Vietnamese coffee offers a
+              delightful experience that transports me to moments of tranquility
+              and pure enjoyment.
             </span>
           </div>
         </div>
