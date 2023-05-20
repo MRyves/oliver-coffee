@@ -5,6 +5,7 @@ import { FaBars, FaEnvelope, FaInstagram, FaMailBulk, FaMailchimp, FaTimes } fro
 
 import LogoWhite from "../../public/logos/logo-white.png";
 import LogoIcon from "../../public/logos/logo-icon.jpg";
+import Logo from "./Logo";
 
 
 interface NavbarProps {
@@ -39,10 +40,9 @@ export default function Navbar(props: NavbarProps) {
               </Link>
             </div>
           </div>
-          <div className="flex grow shrink-0 basis-0 items-center justify-start md:justify-center mx-auto">
-            <Link href="/" className="py-2 md:py-0">
-              <Image src={LogoWhite} style={{filter: 'invert(100%)'}} height={120} alt="Oliver Coffee Logo" className="hidden md:block" priority/>
-              <span><Image src={LogoIcon} style={{filter: 'invert(100%)'}} height={50} alt="Oliver Coffee Logo" className="inline-block md:hidden" priority />liver</span>
+          <div className="flex grow shrink-0 basis-0 items-center justify-start md:justify-center mx-auto h-full">
+            <Link href="/" className="h-full">
+              <Logo height={50} />
             </Link>
           </div>
           <div className="basis-1/3 flex justify-end space-x-4 text-black">
