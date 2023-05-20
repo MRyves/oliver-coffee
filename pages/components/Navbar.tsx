@@ -1,10 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
-import { FaBars, FaEnvelope, FaInstagram, FaMailBulk, FaMailchimp, FaTimes } from "react-icons/fa";
+import { FaBars, FaEnvelope, FaInstagram, FaTimes } from "react-icons/fa";
 
-import LogoWhite from "../../public/logos/logo-white.png";
-import LogoIcon from "../../public/logos/logo-icon.jpg";
 import Logo from "./Logo";
 
 

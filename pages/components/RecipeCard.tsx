@@ -1,5 +1,4 @@
 import Image from "next/image";
-import coffeeDropPic from "../../public/home-coffee.jpg";
 import styles from "../../styles/RecipeCard/RecipeCard.module.css";
 import flipAnimation from "../../styles/RecipeCard/FlipAnimation.module.css";
 import { CSSTransition } from "react-transition-group";
@@ -10,15 +9,16 @@ type RecipeCardProps = Recipe;
 
 export default function RecipeCard(props: RecipeCardProps) {
   const cardRef = useRef(null);
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isShowingFront, setIsShowingFront] = useState(true);
   const handleCardClick = () => {
-    setIsFlipped(!isFlipped);
+    setIsShowingFront(!isShowingFront);
   };
+
 
   return (
     <CSSTransition
       nodeRef={cardRef}
-      in={isFlipped}
+      in={isShowingFront}
       timeout={300}
       classNames={flipAnimation}
     >
@@ -28,7 +28,7 @@ export default function RecipeCard(props: RecipeCardProps) {
         onClick={handleCardClick}
       >
         <div className={styles.cardFront}>
-          <Image className="rounded-t-lg" src={coffeeDropPic} alt="" />
+          <Image className="rounded-t-lg" src={props.img} alt={props.name} height={200} />
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900" dangerouslySetInnerHTML={{__html: props.name}}>
             </h5>

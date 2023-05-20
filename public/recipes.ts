@@ -1,7 +1,17 @@
+import { StaticImageData } from "next/image";
+
+import BlackCoffeeImage from "./recipes/black-coffee.jpg";
+import CaffeeSuaImage from "./recipes/caffee-sua.jpg";
+import CaffeeLatteNamImage from "./recipes/caffee-latte-nam.jpg";
+import CaffeeLatteImage from "./recipes/caffee-latte.jpg";
+import CaffeeCoconutImage from "./recipes/caffee-coconut.jpg";
+import CaffeeSaltImage from "./recipes/caffee-salt.png";
+
 export interface Recipe {
   readonly id: string;
   name: string;
   desc: string;
+  img: StaticImageData;
   ingredients: string[];
   directions: string;
   tip?: string;
@@ -12,6 +22,7 @@ const recipes: Recipe[] = [
     id: "caphe den",
     name: "C&#224; ph&#234; &#272;en",
     desc: "The simple and super strong black coffee. Perfect for espresso lovers and used as an ingredient for other recipes.",
+    img: BlackCoffeeImage,
     ingredients: ["Grouded Oliver Coffee beans", "Boiling water", "Filter"],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
                 Pour the coffee in your glass and add the condese milk. Mix well!
@@ -24,6 +35,7 @@ const recipes: Recipe[] = [
     id: "caphe sua",
     name: "C&#224; ph&#234; s&#7919;a &#273;&#225;",
     desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    img: CaffeeSuaImage,
     ingredients: [
       "45ml Oliver Coffee",
       "15 - 20ml Condense Milk",
@@ -40,6 +52,7 @@ const recipes: Recipe[] = [
     id: "caphe latte nam",
     name: "C&#224; ph&#234; b&#7841;c x&#236;u",
     desc: "The vietnamese Latte. Add a little vietnam-vibe to your café-latte.",
+    img: CaffeeLatteNamImage,
     ingredients: [
       "30ml Oliver Coffee",
       "15 - 20ml Condense Milk",
@@ -57,6 +70,7 @@ const recipes: Recipe[] = [
     id: "caphe latte",
     name: "Café-Latte",
     desc: "Not just like your everyday latte, the vietnam coffee flavor gives your latte a completly different experience.",
+    img: CaffeeLatteImage,
     ingredients: [
       "30ml Oliver Coffee",
       "25ml Milk",
@@ -70,6 +84,7 @@ const recipes: Recipe[] = [
     id: "caphe coconut",
     name: "C&#224; ph&#234; d&#7915;a",
     desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    img: CaffeeCoconutImage,
     ingredients: [
       "45ml Oliver Coffee",
       "25ml Coconut Milk",
@@ -85,6 +100,7 @@ const recipes: Recipe[] = [
     id: "caphe salted",
     name: "C&#224; ph&#234; mu&#245;i",
     desc: "Coffee with salt? I know, sounds weird, but give it a try, this experience will surprise you and the pinch of salt does magic to the taste.",
+    img: CaffeeSaltImage,
     ingredients: [
       "45ml Oliver Coffee",
       "25ml Condense Milk",

@@ -18,7 +18,7 @@ const sans = Comfortaa({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Navbar className={`${sans.variable} ${mono.variable} font-sans bg-white`} />
+      <Navbar className={`${sans.variable} ${mono.variable} font-sans bg-white border-b-gray-300 border-b-[1px]`} />
       <main className={`${sans.variable} ${mono.variable} h-full font-sans`}>
         <Component {...pageProps} />
       </main>
