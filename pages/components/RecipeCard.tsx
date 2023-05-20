@@ -28,7 +28,7 @@ export default function RecipeCard(props: RecipeCardProps) {
         onClick={handleCardClick}
       >
         <div className={styles.cardFront}>
-          <Image className="rounded-t-lg" src={props.img} alt={props.name} height={200} />
+          <Image className="rounded-t-lg" src={props.img} alt={props.name}/>
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900" dangerouslySetInnerHTML={{__html: props.name}}>
             </h5>
