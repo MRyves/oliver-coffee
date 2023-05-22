@@ -13,8 +13,8 @@ export default function CoffeePage() {
       <section id="more-info" className="px-7 mt-3">
         <Title text="What is in the starterpack?" />
         <Subtitle text="and how do i get one..." />
-        <div className="flex justify-between mt-5">
-          <div className="hidden md:block w-1/3 h-fit">
+        <div className="flex flex-col md:flex-row justify-between mt-5">
+          <div className="w-full md:block md:w-1/3 h-fit">
             <Image
               src={StarterpackPic}
               priority={true}
@@ -23,20 +23,35 @@ export default function CoffeePage() {
               alt="Starterpack image"
             />
           </div>
-          <div className="md:w-3/5 self-center">
+          <div className="self-center pt-2 md:pt-0 md:w-3/5 md:text-lg">
             <span>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-              porro consequatur sapiente voluptatum magni blanditiis aut alias,
-              similique soluta, a aliquid dolore provident iure nesciunt nihil
-              aliquam nisi eius laborum. Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Ipsam, ea officiis? Sed nulla labore aut,
-              repudiandae voluptatibus est fuga error modi earum tempora
-              voluptate, nihil ducimus sunt dicta in incidunt.
+              Introducing the perfect starter kit for brewing Vietnamese coffee!
+              This all-in-one package includes:
+              <ul className="list-disc list-outside pl-4 ">
+                <li>Filter: A high-quality coffee
+              filter, designed specifically for Vietnamese coffee brewing. It
+              ensures a smooth and robust cup of coffee every time.</li>
+                <li>
+                  1kg Oliver Coffee: Already grouded coffee beans straight out of Vietnam
+                </li>
+                <li>
+                  1 Can Condensed Milk: Indulge in the traditional sweetness of
+                  Vietnamese coffee with a can of rich and creamy condensed
+                  milk. It adds a unique touch to your brew, creating the
+                  perfect balance of flavors
+                </li>
+                <li>
+                  Small Surprise: As an extra treat, we&apos;ve included a small
+                  surprise in your starter kit! Discover a little something
+                  special that will enhance your coffee brewing journey even
+                  further
+                </li>
+              </ul>
             </span>
             <p className="text-center mt-2">
               <Link href="/order" passHref>
                 <button
-                  className="p-2 rounded text-white"
+                  className="p-3 rounded text-white"
                   style={{ backgroundColor: "#40AFBD" }}
                 >
                   Get your starterpack!
@@ -52,21 +67,21 @@ export default function CoffeePage() {
       <section className="px-7 mt-3">
         <Title
           text="What can you do with the starterpack?"
-          classNames="text-right"
+          classNames="md:text-right"
         />
-        <Subtitle text="... the traditional recipes" classNames="text-right" />
-        <div className="flex flex-col md:flex-row justify-between mt-5">
-          <div className="md:w-3/5 self-center text-right">
+        <Subtitle text="... the traditional recipes" classNames="md:text-right" />
+        <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
+          <div className="self-center pt-2 md:pt-0 md:w-3/5 md:text-right">
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
-              quisquam, laborum perferendis accusantium, asperiores iure beatae
-              ex necessitatibus cum aperiam voluptates ea rerum ratione adipisci
-              blanditiis placeat doloribus praesentium nemo.
+              With this starter kit, you&apos;ll have everything you need to immerse
+              yourself in the art of brewing Vietnamese coffee. Get ready to
+              savor the bold flavors, aromatic aroma, and cultural charm this
+              kit brings to your cup. Start your coffee adventure today!
             </span>
             <p className="text-center mt-2">
               <Link href="/recipes">
                 <button
-                  className="p-2 rounded text-white"
+                  className="p-3 rounded text-white"
                   style={{ backgroundColor: "#40AFBD" }}
                 >
                   Go to the recipes
@@ -74,7 +89,7 @@ export default function CoffeePage() {
               </Link>
             </p>
           </div>
-          <div className="hidden md:block md:w-1/3 h-fit">
+          <div className="block w-full md:w-1/3 h-fit">
             <Image
               src={CoffeeVariationPic}
               className="rounded-md opacity-90"

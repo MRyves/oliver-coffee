@@ -12,7 +12,7 @@ export default function CoffeeBanner() {
   return (
     <div id="banner" className={styles.banner}>
       <div className="relative z-10 flex flex-wrap items-center px-4 pt-24 md:px-20 2xl:px-40 md:pt-54 2xl:pt-96">
-        <h1 className="flex-1 basis-full text-white text-2xl font-semibold font-mono md:text-6xl">
+        <h1 className="flex-1 basis-full text-white text-3xl md:text-6xl font-semibold font-mono">
           This is our Coffee
         </h1>
         <h3 className="flex-1 basis-full text-white text-xl md:text-3xl font-mono mt-6">

@@ -23,7 +23,7 @@ export default function Home() {
               alt="Dripping coffee image"
             />
           </div>
-          <div className="md:w-3/5 self-center pb-2 md:text-lg">
+          <div className="self-center pb-2 md:pb-0 md:text-lg md:w-3/5 ">
             <span>
               I love Vietnamese coffee for its unique flavor combination of
               dark-roasted beans and sweetened condensed milk. The taste is
@@ -42,8 +42,8 @@ export default function Home() {
         <hr className="h-px my-8 mx-auto" />
       </div>
       <section className="px-7 mt-5">
-        <Title text="What we do" classNames="text-right" />
-        <Subtitle text="... and why we do it" classNames="text-right" />
+        <Title text="What we do" classNames="md:text-right" />
+        <Subtitle text="... and why we do it" classNames="md:text-right" />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
           <div className="md:order-last block w-full md:w-1/3 h-fit">
             <Image
@@ -54,7 +54,7 @@ export default function Home() {
               style={{ objectFit: "contain", objectPosition: "center" }}
             />
           </div>
-          <div className="md:w-3/5 self-center text-right">
+          <div className="self-center pb-2 md:pb-0 md:text-lg md:w-3/5 md:text-right">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia
             fugit, hic velit non molestias ad eveniet quaerat officiis labore
             soluta voluptatum natus debitis nulla voluptatibus corrupti

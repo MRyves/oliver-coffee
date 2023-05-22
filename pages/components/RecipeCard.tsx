@@ -51,7 +51,7 @@ export default function RecipeCard(props: RecipeCardProps) {
               <li key={i}>{i}</li>
             ))}
           </ul>
-          <h5 className="text-xl font-bold tracking-tight text-gray-900 mt-3">
+          <h5 className="text-xl font-bold tracking-tight text-gray-900 mt-3 underline">
             Directions
           </h5>
           <p className="mb-2">{props.directions}</p>
