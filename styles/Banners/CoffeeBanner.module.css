@@ -1,17 +1,12 @@
 .banner {
   position: relative;
+  height: calc(100vh - 64px);
   width: 100%;
-  height: 33vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-items: stretch;
-  align-items: center;
 }
 
-.banner::after {
+.banner::before {
   content: "";
-  background-image: url("../public/coffee-beans.jpg");
+  background-image: url("../../public/coffee-bags.jpg");
   background-color: #5f4e3a;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +16,5 @@
   bottom: 0;
   right: 0;
   left: 0;
-  filter: brightness(40%);
-  opacity: 0.8;
-  z-index: -1;
+  opacity: 0.75;
 }

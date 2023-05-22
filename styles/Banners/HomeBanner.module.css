@@ -6,7 +6,7 @@
 
 .homeBanner::before {
   content: "";
-  background-image: url("../public/home-coffee.jpg");
+  background-image: url("../../public/home-coffee.jpg");
   background-color: #5f4e3a;
   background-size: cover;
   background-repeat: no-repeat;

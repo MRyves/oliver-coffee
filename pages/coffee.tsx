@@ -1,10 +1,10 @@
-import CoffeeBanner from "./components/CoffeeBanner";
 import Subtitle from "./components/Subtitle";
 import Title from "./components/Title";
 import Image from "next/image";
 import Link from "next/link";
 import StarterpackPic from "../public/starterpack.jpg";
 import CoffeeVariationPic from "../public/coffee-variations.jpg";
+import CoffeeBanner from "./components/Banners/CoffeeBanner";
 
 export default function CoffeePage() {
   return (

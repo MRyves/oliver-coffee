@@ -28,6 +28,12 @@ export default function Navbar(props: NavbarProps) {
                 Coffee
               </Link>
               <Link
+                href="/recipes"
+                className="text-black px-3 py-2 rounded-md text-md font-medium"
+              >
+                Recipes
+              </Link>
+              <Link
                 href="/story"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
@@ -80,6 +86,13 @@ export default function Navbar(props: NavbarProps) {
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
               Coffee
+            </Link>
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/recipes"
+              className="text-black block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Recipes
             </Link>
             <Link
               onClick={() => setMenuOpen(false)}

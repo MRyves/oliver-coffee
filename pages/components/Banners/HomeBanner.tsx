@@ -1,4 +1,4 @@
-import styles from "../../styles/HomeBanner.module.css";
+import styles from "../../../styles/Banners/HomeBanner.module.css";
 import { FaCoffee } from "react-icons/fa";
 import { MouseEvent } from "react";
 
@@ -11,7 +11,7 @@ export default function HomeBanner() {
 
   return (
     <div id="home-banner" className={styles.homeBanner}>
-      <div className="relative z-10 flex flex-wrap items-center px-4 pt-24 md:px-20 2xl:px-24 ">
+      <div className="relative z-10 flex flex-wrap items-center px-4 md:px-20 2xl:px-24 pt-24 md:pt-54 2xl:pt-80 tracking-widest">
         <h1 className="flex-1 basis-full text-white text-3xl md:text-4xl xl:text-6xl font-semibold font-mono">
           Traditional
           <br />

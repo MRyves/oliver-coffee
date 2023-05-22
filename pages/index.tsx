@@ -2,9 +2,9 @@ import Image from "next/image";
 import coffeeDropPic from "../public/coffee-drops.jpg";
 import sharingCoffeePic from "../public/sharing-coffee.jpg";
 import coffeeFarmerPic from "../public/coffee-farmer.jpg";
-import HomeBanner from "./components/HomeBanner";
 import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
+import HomeBanner from "./components/Banners/HomeBanner";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
               alt="Dripping coffee image"
             />
           </div>
-          <div className="md:w-3/5 self-center pb-2">
+          <div className="md:w-3/5 self-center pb-2 md:text-lg">
             <span>
               I love Vietnamese coffee for its unique flavor combination of
               dark-roasted beans and sweetened condensed milk. The taste is

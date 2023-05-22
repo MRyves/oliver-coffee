@@ -1,4 +1,4 @@
-import OrderBanner from "./components/OrderBanner";
+import OrderBanner from "./components/Banners/OrderBanner";
 import OrderForm from "./components/OrderForm";
 
 export default function Order() {
