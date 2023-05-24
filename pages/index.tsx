@@ -55,10 +55,19 @@ export default function Home() {
             />
           </div>
           <div className="self-center pb-2 md:pb-0 md:text-lg md:w-3/5 md:text-right">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia
-            fugit, hic velit non molestias ad eveniet quaerat officiis labore
-            soluta voluptatum natus debitis nulla voluptatibus corrupti
-            recusandae maxime necessitatibus.
+            We are in the business of introducing Vietnamese coffee to
+            Switzerland. Our mission is to share the unique and robust flavor of
+            Vietnamese coffee with Swiss coffee lovers. We carefully source our
+            beans directly from Vietnam, and bring the traditional brewing
+            techniques to our local cafés and homes here in Switzerland.
+            <br />
+            Our motivation comes from our love for Vietnamese coffee.
+            The distinct richness, deep flavors, and the vibrant coffee culture
+            of Vietnam captivated us. We want to share this experience with
+            Switzerland, to broaden the coffee horizons and bring more diversity
+            to the Swiss coffee scene. We are passionate about connecting
+            cultures through coffee, and we believe that Vietnamese coffee has a
+            special place in the Swiss market.
           </div>
         </div>
       </section>
