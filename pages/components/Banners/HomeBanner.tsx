@@ -17,7 +17,14 @@ export default function HomeBanner() {
           <br />
           vietnamese
           <br />
-          Coffee
+          <div className={styles.wordCarousel}>
+          
+          <span className={styles.word}>Coffee</span>
+          <span className={styles.word}>C&#224; ph&#234; s&#7919;a</span>
+          <span className={styles.word}>C&#224; ph&#234; b&#7841;c x&#236;u</span>
+          <span className={styles.word}>C&#224; ph&#234; d&#7915;a</span>
+          <span className={styles.word}>C&#224; ph&#234; mu&#245;i</span>
+          </div>
         </h1>
         <h3 className="flex-1 basis-full text-white text-xl md:text-2xl xl:text-3xl font-mono mt-6">
           Experice this unique
