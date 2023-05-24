@@ -1,0 +1,68 @@
+.banner {
+  position: relative;
+  height: calc(100vh - 64px);
+  width: 100%;
+}
+
+.banner::before {
+  content: "";
+  background-image: url("../../public/story.jpg");
+  background-color: #5f4e3a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    padding-top: 10%;
+  }
+
+  .banner::before {
+    content: "";
+    background-image: url("../../public/story.jpg");
+    background-color: whitesmoke;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .bannerTextBox {
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 30%;
+    z-index: 1;
+    position: relative;
+    border-radius: 0.5rem;
+    margin-left: 10%;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    padding-top: 25%;
+  }
+
+  .bannerTextBox {
+    background-color: rgba(255, 255, 255, 0.75);
+    max-width: 90%;
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    padding: 10px;
+  }
+}
