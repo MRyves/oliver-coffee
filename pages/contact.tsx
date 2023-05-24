@@ -1,4 +1,4 @@
-import ContactBanner from "./components/ContactBanner";
+import ContactBanner from "./components/Banners/ContactBanner";
 import ContactForm from "./components/ContactForm";
 
 export default function Contact(){
