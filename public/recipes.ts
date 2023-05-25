@@ -50,7 +50,7 @@ const recipes: Recipe[] = [
   {
     id: "caphe latte nam",
     name: "C&#224; ph&#234; b&#7841;c x&#236;u",
-    desc: "The vietnamese Latte. Add a little vietnam-vibe to your café-latte.",
+    desc: "The Vietnamese version of Caffè Latte. Strong, bold drip coffee smoothly balanced with sweet, creamy condensed milk.",
     img: CaffeeLatteNamImage,
     ingredients: [
       "30ml Oliver Coffee",
@@ -78,7 +78,7 @@ const recipes: Recipe[] = [
   {
     id: "caphe coconut",
     name: "C&#224; ph&#234; d&#7915;a",
-    desc: "The signature coffee of Vietnam. My personal favorite, perfect for warm summer monings, take your time while drinking it.",
+    desc: "Savor the indulgence of Vietnamese Coconut Coffee - a unique blend of rich, aromatic coffee beautifully mixed with creamy coconut milk and ice.",
     img: CaffeeCoconutImage,
     ingredients: ["45ml Oliver Coffee", "25ml Coconut Milk", "Optional: Ice"],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.

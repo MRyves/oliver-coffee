@@ -5,6 +5,7 @@ import coffeeFarmerPic from "../public/coffee-farmer.jpg";
 import Title from "./components/Title";
 import Subtitle from "./components/Subtitle";
 import HomeBanner from "./components/Banners/HomeBanner";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -61,9 +62,9 @@ export default function Home() {
             beans directly from Vietnam, and bring the traditional brewing
             techniques to our local cafés and homes here in Switzerland.
             <br />
-            Our motivation comes from our love for Vietnamese coffee.
-            The distinct richness, deep flavors, and the vibrant coffee culture
-            of Vietnam captivated us. We want to share this experience with
+            Our motivation comes from our love for Vietnamese coffee. The
+            distinct richness, deep flavors, and the vibrant coffee culture of
+            Vietnam captivated us. We want to share this experience with
             Switzerland, to broaden the coffee horizons and bring more diversity
             to the Swiss coffee scene. We are passionate about connecting
             cultures through coffee, and we believe that Vietnamese coffee has a
@@ -88,10 +89,26 @@ export default function Home() {
             />
           </div>
           <div className="md:w-3/5 self-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad
-            fugiat esse, alias, optio eveniet consectetur ab numquam et possimus
-            perferendis quo repudiandae iusto odio! Repellendus, dolores
-            aliquid? Vitae, repellendus.
+            Are you intrigued by the unique and bold flavors of Vietnamese
+            coffee? Whether you&apos;re a café owner looking to diversify your
+            offerings, or a coffee enthusiast longing for a taste adventure,
+            weve got you covered. Our starter pack is a perfect introduction to
+            the rich world of Vietnamese coffee, carefully curated to deliver an
+            authentic experience. Discover the distinctive tastes and brewing
+            methods that make Vietnamese coffee stand out. If you have any
+            questions or need further guidance, our team is always ready to
+            assist you. Reach out to us via the contact page and embark on your
+            Vietnamese coffee journey today.
+            <p className="text-center mt-2">
+              <Link href="/coffee" passHref>
+                <button
+                  className="p-3 rounded text-white"
+                  style={{ backgroundColor: "#40AFBD" }}
+                >
+                  Read about our Coffee
+                </button>
+              </Link>
+            </p>
           </div>
         </div>
       </section>
