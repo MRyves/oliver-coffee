@@ -88,7 +88,7 @@ export default function Home() {
               style={{ objectFit: "contain", objectPosition: "center" }}
             />
           </div>
-          <div className="md:w-3/5 self-center">
+          <div className="md:w-3/5 md:text-lg self-center">
             Are you intrigued by the unique and bold flavors of Vietnamese
             coffee? Whether you&apos;re a café owner looking to diversify your
             offerings, or a coffee enthusiast longing for a taste adventure,

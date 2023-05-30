@@ -77,7 +77,7 @@ export default function CoffeePage() {
           classNames="md:text-right"
         />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
-          <div className="self-center pt-2 md:pt-0 md:w-3/5 md:text-right">
+          <div className="self-center pt-2 md:pt-0 md:w-3/5 md:text-right md:text-lg">
             <span>
               Immerse yourself in the world of Vietnamese coffee with our
               carefully curated starter pack. It&apos;s a gateway to experiencing the
