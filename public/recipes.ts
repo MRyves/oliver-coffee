@@ -80,9 +80,9 @@ const recipes: Recipe[] = [
     name: "C&#224; ph&#234; d&#7915;a",
     desc: "Savor the indulgence of Vietnamese Coconut Coffee - a unique blend of rich, aromatic coffee beautifully mixed with creamy coconut milk and ice.",
     img: CaffeeCoconutImage,
-    ingredients: ["45ml Oliver Coffee", "25ml Coconut Milk", "Optional: Ice"],
+    ingredients: ["45ml Oliver Coffee", "30ml Condense Milk", "25ml Coconut Milk", "Optional: Ice"],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the coconut milk. Mix well!
+            Pour the coffee in your glass and add the coconut & condense. Mix well!
             Traditionaly this coffee is served as an iced coffee, but feel free
             to heat the mixture again to enjoy a warm version.`,
     tip: "Tipp from the locals:<br /> Put the ingredients in a handshaker and shake shake shake...",
