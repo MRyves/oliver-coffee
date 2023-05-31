@@ -20,11 +20,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Navbar className={`${sans.variable} ${mono.variable} font-sans bg-white border-b-gray-300 border-b-[1px]`} />
       <main style={{
-        minHeight: 'calc(100vh - 100px - 93px)'
+        minHeight: 'calc(100vh - 100px - 85px)'
       }} className={`${sans.variable} ${mono.variable} font-sans`}>
         <Component {...pageProps} />
       </main>
-      <Footer className={`${sans.variable} ${mono.variable} font-sans bg-white rounded-lg shadow m-4`} />
+      <Footer className={`${sans.variable} ${mono.variable} font-sans bg-white rounded-lg shadow m-4 h-[50px]`} />
     </>
   );
 }
