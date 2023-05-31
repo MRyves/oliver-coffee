@@ -21,6 +21,7 @@ export default function OrderForm() {
       setName("");
       setEmail("");
       setMessage("");
+      setPhoneNr("");
       setIsSignNewsletter(true);
     } else {
       setIsMessageSent("error");
@@ -85,7 +86,7 @@ export default function OrderForm() {
             htmlFor="inp-name"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Your Name
+            Your Name *
           </label>
           <input
             id="inp-name"
@@ -95,6 +96,7 @@ export default function OrderForm() {
             type="text"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500"
             placeholder="e.g. Yves Hendseth"
+            required
           />
         </div>
         <div className="mb-4">
@@ -102,7 +104,7 @@ export default function OrderForm() {
             htmlFor="inp-email"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Your Email*
+            Your Email *
           </label>
           <input
             id="inp-email"
@@ -111,7 +113,8 @@ export default function OrderForm() {
             onChange={(e) => setEmail(e?.target?.value)}
             type="email"
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500"
-            placeholder="e.g. yhendseth@gmail.com"
+            placeholder="e.g. john.doe@gmail.com"
+            required
           />
         </div>
         <div className="mb-4">
@@ -165,6 +168,7 @@ export default function OrderForm() {
             className="block shadow appearance-none border rounded w-full text-gray-700 text-sm py-2 px-3"
             placeholder="Tell us how you found our page and add your address for faster delivery..."
             rows={5}
+            required
           ></textarea>
         </div>
         <div className="mb-4">
