@@ -10,7 +10,7 @@ export default async function handler(
   res: NextApiResponse<string>
 ) {
   if (req.method === "POST") {
-    const { name, email, message, signNewsletter, inspector } = req.body;
+    const { name, email, phoneNr, message, isSignNewsletter, inspector } = req.body;
 
     if (inspector) {
       return res.status(400).send("Message not sent");
@@ -27,11 +27,11 @@ export default async function handler(
     }
 
     const { statusCode, statusMessage } = await EmailService.sendEmail(
-      "Contact request",
+      "Order request",
       `name: ${name}\nemail: ${email.replace(
         "@",
         "(at)"
-      )}\nnewsletter: ${signNewsletter}\nmessage: ${message}`
+      )}\nphoneNr:${phoneNr}\nnewsletter: ${isSignNewsletter}\nmessage: ${message}`
     );
 
     return res.status(statusCode).send(statusMessage);
