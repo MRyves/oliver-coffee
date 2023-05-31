@@ -1,4 +1,4 @@
-import RecipeCard from "./components/RecipeCard";
+import RecipeCard from "../src/components/RecipeCard";
 import recepiesList from "../public/recipes";
 
 export default function recipes(){

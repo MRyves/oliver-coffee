@@ -2,9 +2,9 @@ import Image from "next/image";
 import coffeeDropPic from "../public/coffee-drops.jpg";
 import sharingCoffeePic from "../public/sharing-coffee.jpg";
 import coffeeFarmerPic from "../public/coffee-farmer.jpg";
-import Title from "./components/Title";
-import Subtitle from "./components/Subtitle";
-import HomeBanner from "./components/Banners/HomeBanner";
+import Title from "../src/components/Title";
+import Subtitle from "../src/components/Subtitle";
+import HomeBanner from "../src/components/Banners/HomeBanner";
 import Link from "next/link";
 
 export default function Home() {

@@ -33,7 +33,7 @@ export default async function handler(
     const postMarkBody = {
       From: process.env.emailFrom,
       To: process.env.emailTo,
-      Subject: "Oliver Coffee Contact request",
+      Subject: "[OliverCoffee] Contact request",
       HtmlBody: `
       <p>name: ${name}</p>
       <p>email: ${email}</p>

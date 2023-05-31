@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Navbar from "./components/Navbar";
-import { Anonymous_Pro, Cinzel, Comfortaa, Quicksand, Roboto_Mono, Sintony } from "next/font/google";
-import Footer from "./components/Footer";
+import Navbar from "../src/components/Navbar";
+import { Comfortaa, Sintony } from "next/font/google";
+import Footer from "../src/components/Footer";
 
 const mono = Sintony({
   subsets: ["latin"],

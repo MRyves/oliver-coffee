@@ -1,7 +1,7 @@
 import Link from "next/link";
-import StoryBanner from "./components/Banners/StoryBanner";
-import Subtitle from "./components/Subtitle";
-import Title from "./components/Title";
+import StoryBanner from "../src/components/Banners/StoryBanner";
+import Subtitle from "../src/components/Subtitle";
+import Title from "../src/components/Title";
 
 export default function StoryPage() {
   return (
