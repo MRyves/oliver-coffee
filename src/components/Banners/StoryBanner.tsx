@@ -17,7 +17,7 @@ export default function StoryBanner() {
         <br />
         <button
           onClick={handleClick}
-          className="inline-flex items-center font-mono text-white rounded-md p-2 mt-1"
+          className="inline-flex items-center font-mono text-white rounded-md p-3 mt-1"
           style={{ backgroundColor: "#40AFBD" }}
         >
           <FaCoffee className="fill-current mr-2" />

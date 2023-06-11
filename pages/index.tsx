@@ -97,7 +97,8 @@ export default function Home() {
             authentic experience. Discover the distinctive tastes and brewing
             methods that make Vietnamese coffee stand out. If you have any
             questions or need further guidance, our team is always ready to
-            assist you. Reach out to us via the contact page and embark on your
+            assist you. Reach out to us via the{" "}
+            <Link href="/contact" style={{color: "#40AFBD"}}>contact</Link> page and embark on your
             Vietnamese coffee journey today.
             <p className="text-center mt-2">
               <Link href="/coffee" passHref>
