@@ -23,12 +23,13 @@ const recipes: Recipe[] = [
     name: "C&#224; ph&#234; &#272;en",
     desc: "The simple and super strong black coffee. Perfect for espresso lovers and used as an ingredient for other recipes.",
     img: BlackCoffeeImage,
-    ingredients: ["Grouded Oliver Coffee beans", "Boiling water", "Filter", "Optional: Ice"],
-    directions: `Fill the aluminium filter a little over the indentation mark with the grounded coffee. 
-    Place the filter on top of a glass and pour boiling water into the filter until it is full. 
-    Now all you have to do is wait until the dripping stops. 
-    We highly recommend to fill the filter a second time (without replacing or adding grounded coffee) otherwise the coffee will be extremaly strong.
-    Don't worry reusing the coffee for a second time will not affect the taste too much. Fill your espresso cup and enjoy!`,
+    ingredients: [
+      "Grouded Oliver Coffee beans",
+      "Boiling water",
+      "Filter",
+      "Optional: Ice",
+    ],
+    directions: `See detailed directions at the start of this page...`,
   },
   {
     id: "caphe sua",
@@ -40,8 +41,7 @@ const recipes: Recipe[] = [
       "15 - 20ml Condense Milk",
       "Optional: Ice",
     ],
-    directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
-            Pour the coffee in your glass and add the condese milk. Mix well!
+    directions: `Pour the coffee in your glass and add the condese milk. Mix well!
             Condense milk takes a while to fully mix with the coffee.
             Traditionaly this coffee is served as an ice coffee, but feel free
             to heat the mixture again to enjoy a warm version.`,
@@ -80,7 +80,12 @@ const recipes: Recipe[] = [
     name: "C&#224; ph&#234; d&#7915;a",
     desc: "Savor the indulgence of Vietnamese Coconut Coffee - a unique blend of rich, aromatic coffee beautifully mixed with creamy coconut milk and ice.",
     img: CaffeeCoconutImage,
-    ingredients: ["45ml Oliver Coffee", "30ml Condense Milk", "25ml Coconut Milk", "Optional: Ice"],
+    ingredients: [
+      "45ml Oliver Coffee",
+      "30ml Condense Milk",
+      "25ml Coconut Milk",
+      "Optional: Ice",
+    ],
     directions: `Brew the Oliver Coffee like you woud do for simple black coffee.
             Pour the coffee in your glass and add the coconut & condense. Mix well!
             Traditionaly this coffee is served as an iced coffee, but feel free

@@ -14,7 +14,6 @@ export default function RecipeCard(props: RecipeCardProps) {
     setIsShowingFront(!isShowingFront);
   };
 
-
   return (
     <CSSTransition
       nodeRef={cardRef}
@@ -28,15 +27,16 @@ export default function RecipeCard(props: RecipeCardProps) {
         onClick={handleCardClick}
       >
         <div className={styles.cardFront}>
-          <Image className="rounded-t-lg" src={props.img} alt={props.name}/>
+          <Image className="rounded-t-lg" src={props.img} alt={props.name} />
           <div className="p-5">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900" dangerouslySetInnerHTML={{__html: props.name}}>
-            </h5>
+            <h5
+              className="mb-2 text-2xl font-bold tracking-tight text-gray-900"
+              dangerouslySetInnerHTML={{ __html: props.name }}
+            ></h5>
             <p className="mb-3 font-normal text-gray-700 ">{props.desc}</p>
             <a
               onClick={handleCardClick}
-              style={{ backgroundColor: "#40AFBD" }}
-              className="inline-flex items-center px-3 p-3 text-sm font-medium text-center text-white rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex items-center px-3 p-3 text-sm font-medium text-center text-white rounded-lg bg-default-cyan-normal hover:bg-default-cyan-dark focus:ring-4 focus:outline-none focus:ring-blue-300"
             >
               How it&apos;s made
             </a>
@@ -55,7 +55,10 @@ export default function RecipeCard(props: RecipeCardProps) {
             Directions
           </h5>
           <p className="mb-2">{props.directions}</p>
-          <p className="italic" dangerouslySetInnerHTML={{__html: props.tip || ''}}></p>
+          <p
+            className="italic"
+            dangerouslySetInnerHTML={{ __html: props.tip || "" }}
+          ></p>
         </div>
       </div>
     </CSSTransition>

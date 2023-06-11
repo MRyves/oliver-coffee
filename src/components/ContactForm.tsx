@@ -121,8 +121,7 @@ export default function ContactForm() {
         <div className="mb-4">
           <button
             type="submit"
-            className="inline-flex justify-center align-middle rounded w-full h-full shadow p-2 text-white"
-            style={{ backgroundColor: "#40AFBD" }}
+            className="inline-flex justify-center align-middle rounded w-full h-full shadow p-2 text-white bg-default-cyan-normal"
           >
             <span>Send</span>
             <BsEnvelopeHeart className="fill-current w-6 h-6 ml-3" />

@@ -33,8 +33,7 @@ export default function HomeBanner() {
         </h3>
         <button
           onClick={handleClick}
-          className="font-mono inline-flex items-center text-white rounded-md p-3 mt-6"
-          style={{ backgroundColor: "#40AFBD" }}
+          className="font-mono inline-flex items-center text-white rounded-md p-3 mt-6 bg-default-cyan-normal"
         >
           <FaCoffee className="fill-current mr-2" />
           Show me!

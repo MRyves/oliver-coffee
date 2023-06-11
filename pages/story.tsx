@@ -7,7 +7,7 @@ export default function StoryPage() {
   return (
     <>
       <StoryBanner />
-      <section id="story-time" className="px-7 mt-3">
+      <section id="story-time" className="px-7 mt-3 max-w-screen-2xl mx-auto">
         <Title text="Story time" />
         <Subtitle
           text="It is the 10<sup>th</sup> of Ferbruary 2023..."
@@ -16,8 +16,7 @@ export default function StoryPage() {
         <div className="mt-2 text-justify">
           And I wake up on my first day in{" "}
           <a
-            className="underline"
-            style={{ color: "#40AFBD" }}
+            className="underline text-default-cyan-dark"
             href="https://goo.gl/maps/WkN5sbjVVJ1L6MX36"
           >
             H&#7897;i An
@@ -28,8 +27,7 @@ export default function StoryPage() {
           <p>
             I make my way there and order my usual morning coffee,{" "}
             <Link
-              className="underline"
-              style={{ color: "#40AFBD" }}
+              className="underline text-default-cyan-dark"
               href="/recipes"
             >
               C&#224; ph&#234; s&#7919;a
@@ -63,8 +61,7 @@ export default function StoryPage() {
             Oliver Coffee for my morning brew. Quang greeted me with a warm
             smile, already preparing my{" "}
             <Link
-              className="underline"
-              style={{ color: "#40AFBD" }}
+              className="underline text-default-cyan-dark"
               href="/recipes"
             >
               C&#224; ph&#234; s&#7919;a

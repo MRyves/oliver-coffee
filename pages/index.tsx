@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <section id="explanaition-anker" className="px-7 mt-3">
+      <section id="explanaition-anker" className="mt-3 max-w-screen-2xl mx-auto">
         <Title text="What is vietnamese coffee?" />
         <Subtitle text="and why we love it..." />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -39,10 +39,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="px-7">
+      <div className="max-w-screen-2xl mx-auto">
         <hr className="h-px my-8 mx-auto" />
       </div>
-      <section className="px-7 mt-5">
+      <section className="max-w-screen-2xl mx-auto mt-5">
         <Title text="What we do" classNames="md:text-right" />
         <Subtitle text="... and why we do it" classNames="md:text-right" />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -72,10 +72,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="px-7">
+      <div className="max-w-screen-2xl mx-auto">
         <hr className="h-px my-8 mx-auto" />
       </div>
-      <section className="px-7 mt-5">
+      <section className="max-w-screen-2xl mx-auto mt-5">
         <Title text="Are you interested?" />
         <Subtitle text="how about some coffee..." />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -98,13 +98,12 @@ export default function Home() {
             methods that make Vietnamese coffee stand out. If you have any
             questions or need further guidance, our team is always ready to
             assist you. Reach out to us via the{" "}
-            <Link href="/contact" style={{color: "#40AFBD"}}>contact</Link> page and embark on your
+            <Link href="/contact" className="text-default-cyan-dark">contact</Link> page and embark on your
             Vietnamese coffee journey today.
             <p className="text-center mt-2">
               <Link href="/coffee" passHref>
                 <button
-                  className="p-3 rounded text-white"
-                  style={{ backgroundColor: "#40AFBD" }}
+                  className="p-3 rounded text-white bg-default-cyan-normal"
                 >
                   Read about our Coffee
                 </button>

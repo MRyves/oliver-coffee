@@ -15,6 +15,13 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-sans)'],
         mono: ['var(--font-mono)']
+      },
+      colors: {
+        "default-cyan": {
+          "light": "#01DDF5",
+          "normal": "#00CFE9",
+          "dark": "#0190A5"
+        }
       }
     },
   },

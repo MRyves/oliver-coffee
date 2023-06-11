@@ -21,8 +21,7 @@ export default function CoffeeBanner() {
         </h3>
         <button
           onClick={handleClick}
-          className="inline-flex items-center font-mono text-white rounded-md p-3 mt-3"
-          style={{ backgroundColor: "#40AFBD" }}
+          className="inline-flex items-center font-mono text-white rounded-md p-3 mt-3 bg-default-cyan-normal"
         >
           <FaCoffee className="fill-current mr-2" />
           More info!
