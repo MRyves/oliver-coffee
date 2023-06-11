@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <section id="explanaition-anker" className="mt-3 max-w-screen-2xl mx-auto">
+      <section id="explanaition-anker" className="mt-3 px-7 lg:px-3 max-w-screen-2xl mx-auto">
         <Title text="What is vietnamese coffee?" />
         <Subtitle text="and why we love it..." />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -39,10 +39,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="max-w-screen-2xl mx-auto">
+      <div className="px-7 lg:px-3 max-w-screen-2xl mx-auto">
         <hr className="h-px my-8 mx-auto" />
       </div>
-      <section className="max-w-screen-2xl mx-auto mt-5">
+      <section className="px-7 lg:px-3 max-w-screen-2xl mx-auto mt-5">
         <Title text="What we do" classNames="md:text-right" />
         <Subtitle text="... and why we do it" classNames="md:text-right" />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -72,10 +72,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="max-w-screen-2xl mx-auto">
+      <div className="px-7 lg:px-3 max-w-screen-2xl mx-auto">
         <hr className="h-px my-8 mx-auto" />
       </div>
-      <section className="max-w-screen-2xl mx-auto mt-5">
+      <section className="px-7 lg:px-3 max-w-screen-2xl mx-auto mt-5">
         <Title text="Are you interested?" />
         <Subtitle text="how about some coffee..." />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
@@ -87,8 +87,17 @@ export default function Home() {
               className="rounded-md opacity-90"
               style={{ objectFit: "contain", objectPosition: "center" }}
             />
+            <p className="md:hidden text-center mt-2">
+              <Link href="/coffee" passHref>
+                <button
+                  className="w-full p-3 rounded text-white bg-default-cyan-normal"
+                >
+                  Read about our Coffee
+                </button>
+              </Link>
+            </p>
           </div>
-          <div className="md:w-3/5 md:text-lg self-center">
+          <div className="md:w-3/5 pb-2 md:text-lg self-center">
             Are you intrigued by the unique and bold flavors of Vietnamese
             coffee? Whether you&apos;re a café owner looking to diversify your
             offerings, or a coffee enthusiast longing for a taste adventure,
@@ -100,7 +109,7 @@ export default function Home() {
             assist you. Reach out to us via the{" "}
             <Link href="/contact" className="text-default-cyan-dark">contact</Link> page and embark on your
             Vietnamese coffee journey today.
-            <p className="text-center mt-2">
+            <p className="hidden md:block text-center mt-2">
               <Link href="/coffee" passHref>
                 <button
                   className="p-3 rounded text-white bg-default-cyan-normal"

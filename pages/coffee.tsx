@@ -10,7 +10,7 @@ export default function CoffeePage() {
   return (
     <>
       <CoffeeBanner />
-      <section id="more-info" className="px-7 mt-3">
+      <section id="more-info" className="px-7 lg:px-3 max-w-screen-2xl mx-auto mt-3">
         <Title text="What is in the starterpack?" />
         <Subtitle text="and how do i get one..." />
         <div className="flex flex-col md:flex-row justify-between mt-5">
@@ -63,10 +63,10 @@ export default function CoffeePage() {
           </div>
         </div>
       </section>
-      <div className="px-7">
+      <div className="px-7 lg:px-3 max-w-screen-2xl mx-auto">
         <hr className="h-px my-8 mx-auto" />
       </div>
-      <section className="px-7 mt-3">
+      <section className="px-7 lg:px-3 max-w-screen-2xl mt-3 mx-auto">
         <Title
           text="What can you do with the starterpack?"
           classNames="md:text-right"

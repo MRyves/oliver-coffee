@@ -8,7 +8,7 @@ import DripCoffeeImg from "@/public/drip-coffee.jpg";
 export default function recipes() {
   return (
     <>
-      <section className="p-3 max-w-screen-2xl mx-auto">
+      <section className="p-7 lg:p-3 max-w-screen-2xl mx-auto">
         <Title text="Your journey begins here" />
         <Subtitle text="A simple guide to brewing our coffee" />
         <div className="mt-3">

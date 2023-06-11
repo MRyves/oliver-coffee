@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
       }} className={`${sans.variable} ${mono.variable} font-sans`}>
         <Component {...pageProps} />
       </main>
-      <Footer className={`${sans.variable} ${mono.variable} font-sans bg-white rounded-lg shadow m-4 h-[50px]`} />
+      <Footer className={`${sans.variable} ${mono.variable} font-sans bg-white rounded-lg shadow m-4 py-4`} />
     </>
   );
 }
