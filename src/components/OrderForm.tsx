@@ -58,7 +58,7 @@ export default function OrderForm() {
     <div className="flex flex-col md:flex-row justify-center items-center p-2 mx-auto">
       <div className="text-justify pt-5 md:pt-0 md:px-10">
         <p>
-          Thank you for choosing to embark on this journey of taste with Oliver
+          Thank you for choosing to embark on this journey of taste with Olivier
           Coffee!
         </p>
 
@@ -72,7 +72,7 @@ export default function OrderForm() {
           Once you&#39;ve submitted the form, I will personally reach out to you
           to confirm your order and discuss the details. We can talk about your
           specific needs, answer any questions you might have, and ensure that
-          your Oliver Coffee experience is tailored just for you.
+          your Olivier Coffee experience is tailored just for you.
         </p>
 
         <p>

@@ -34,7 +34,7 @@ export default function CoffeePage() {
                   cup of coffee every time.
                 </li>
                 <li>
-                  1kg Oliver Coffee: Already grouded coffee beans straight out
+                  1kg Olivier Coffee: Already grouded coffee beans straight out
                   of Vietnam
                 </li>
                 <li>

@@ -58,7 +58,7 @@ export default function StoryPage() {
         <div className="mt-2 text-justify">
           <p>
             The very next day, my feet led me, almost as if by magic, back to
-            Oliver Coffee for my morning brew. Quang greeted me with a warm
+            Olivier Coffee for my morning brew. Quang greeted me with a warm
             smile, already preparing my{" "}
             <Link
               className="underline text-default-cyan-dark"
@@ -97,7 +97,7 @@ export default function StoryPage() {
             Quang put together a package of all the necessary equipment and sent
             it off to my home address. A month later, I was standing in my
             kitchen in Zurich, a parcel containing a piece of Vietnam in my
-            hands. The adventure of Oliver Coffee in Switzerland was just about
+            hands. The adventure of Olivier Coffee in Switzerland was just about
             to begin.
           </p>
         </div>
@@ -165,7 +165,7 @@ export default function StoryPage() {
             Switzerland has since flourished, giving birth to this very website
             you&#39;re browsing. As I write these words, a sense of anticipation
             fills me. While this chapter closes, the aroma of our shared story
-            continues to brew, hinting that the narrative of Oliver Coffee is
+            continues to brew, hinting that the narrative of Olivier Coffee is
             far from over...
           </p>
 

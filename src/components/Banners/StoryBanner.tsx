@@ -11,7 +11,7 @@ export default function StoryBanner() {
   return (
     <div id="story-banner" className={`${styles.banner} font-mono`}>
       <div className={styles.bannerTextBox}>
-        This is the two of us, sitting in front of the Oliver Caffé in Hoi An.
+        This is the two of us, sitting in front of the Olivier Caffé in Hoi An.
         I (Yves) am the guy on the left and Quang, the owner, is the guy on the
         right. Our story starts with me ordering my morning coffee...
         <br />

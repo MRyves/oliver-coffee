@@ -1,5 +1,5 @@
 // TODO: create a new component to display the logo.
-// - The 'O' of "Oliver Coffee" should be the fa-icon from the offical logo
+// - The 'O' of "Olivier Coffee" should be the fa-icon from the offical logo
 // - The rest of the name should be written with the same font-sans used on the page.
 // Happy challange future Yves :)
 
@@ -23,7 +23,7 @@ export default function Logo(props: LogoProps) {
         style={imageStyle}
         priority
       />
-      <div className="pt-5 text-xl md:text-2xl inline-block">liver Coffee</div>
+      <div className="pt-5 text-xl md:text-2xl inline-block">livier Coffee</div>
     </div>
   );
 }

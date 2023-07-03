@@ -8,7 +8,7 @@ const EmailService = {
     const postMarkBody = {
       From: process.env.emailFrom,
       To: process.env.emailTo,
-      Subject: `[OliverCoffee] ${subject}`,
+      Subject: `[OlivierCoffee] ${subject}`,
       TextBody: htmlBody,
     };
 
