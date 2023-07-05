@@ -26,14 +26,14 @@ export default function HomeBanner() {
           <span className={styles.word}>C&#224; ph&#234; mu&#245;i</span>
           </div>
         </h1>
-        <h3 className="flex-1 basis-full text-white text-xl md:text-2xl xl:text-3xl font-mono mt-6">
+        <h3 className="flex-1 basis-full text-white text-xl md:text-2xl xl:text-3xl font-mono md:mt-6">
           Experice this unique
           <br />
           coffee with us!
         </h3>
         <button
           onClick={handleClick}
-          className="font-mono inline-flex items-center text-white rounded-md p-3 mt-6 bg-default-cyan-normal"
+          className="font-mono inline-flex items-center text-white rounded-md p-3 mt-6 bg-default-brown-normal md:text-xl"
         >
           <FaCoffee className="fill-current mr-2" />
           Show me!

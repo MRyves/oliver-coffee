@@ -54,6 +54,15 @@ export default function Home() {
               className="rounded-md opacity-90"
               style={{ objectFit: "contain", objectPosition: "center" }}
             />
+            <p className="md:hidden text-center mt-2">
+              <Link href="/story" passHref>
+                <button
+                  className="w-full p-3 rounded text-white bg-default-brown-normal"
+                >
+                  Read our story
+                </button>
+              </Link>
+            </p>
           </div>
           <div className="self-center pb-2 md:pb-0 md:text-lg md:w-3/5 md:text-right">
             We are in the business of introducing Vietnamese coffee to
@@ -69,6 +78,15 @@ export default function Home() {
             to the Swiss coffee scene. We are passionate about connecting
             cultures through coffee, and we believe that Vietnamese coffee has a
             special place in the Swiss market.
+            <p className="hidden md:block text-center mt-2">
+              <Link href="/story" passHref>
+                <button
+                  className="p-3 rounded text-white bg-default-brown-normal"
+                >
+                  Read our Story
+                </button>
+              </Link>
+            </p>
           </div>
         </div>
       </section>
@@ -90,7 +108,7 @@ export default function Home() {
             <p className="md:hidden text-center mt-2">
               <Link href="/coffee" passHref>
                 <button
-                  className="w-full p-3 rounded text-white bg-default-cyan-normal"
+                  className="w-full p-3 rounded text-white bg-default-brown-normal"
                 >
                   Read about our Coffee
                 </button>
@@ -107,12 +125,12 @@ export default function Home() {
             methods that make Vietnamese coffee stand out. If you have any
             questions or need further guidance, our team is always ready to
             assist you. Reach out to us via the{" "}
-            <Link href="/contact" className="text-default-cyan-dark">contact</Link> page and embark on your
+            <Link href="/contact" className="text-default-brown-dark">contact</Link> page and embark on your
             Vietnamese coffee journey today.
             <p className="hidden md:block text-center mt-2">
               <Link href="/coffee" passHref>
                 <button
-                  className="p-3 rounded text-white bg-default-cyan-normal"
+                  className="p-3 rounded text-white bg-default-brown-normal"
                 >
                   Read about our Coffee
                 </button>

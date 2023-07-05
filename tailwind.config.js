@@ -17,10 +17,10 @@ module.exports = {
         mono: ['var(--font-mono)']
       },
       colors: {
-        "default-cyan": {
-          "light": "#01DDF5",
-          "normal": "#00CFE9",
-          "dark": "#0190A5"
+        "default-brown": {
+          "light": "#c98432",
+          "normal": "#c98432",
+          "dark": "#c98432"
         }
       }
     },

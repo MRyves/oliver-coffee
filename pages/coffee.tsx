@@ -54,7 +54,7 @@ export default function CoffeePage() {
             <p className="text-center mt-2">
               <Link href="/order" passHref>
                 <button
-                  className="p-3 rounded text-white bg-default-cyan-normal"
+                  className="p-3 rounded text-white bg-default-brown-normal"
                 >
                   Get your starterpack!
                 </button>
@@ -93,7 +93,7 @@ export default function CoffeePage() {
             <p className="text-center mt-2">
               <Link href="/recipes">
                 <button
-                  className="p-3 rounded text-white bg-default-cyan-normal"
+                  className="p-3 rounded text-white bg-default-brown-normal"
                 >
                   Go to the recipes
                 </button>

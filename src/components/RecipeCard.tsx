@@ -36,7 +36,7 @@ export default function RecipeCard(props: RecipeCardProps) {
             <p className="mb-3 font-normal text-gray-700 ">{props.desc}</p>
             <a
               onClick={handleCardClick}
-              className="inline-flex items-center px-3 p-3 text-sm font-medium text-center text-white rounded-lg bg-default-cyan-normal hover:bg-default-cyan-dark focus:ring-4 focus:outline-none focus:ring-blue-300"
+              className="inline-flex items-center px-3 p-3 text-sm font-medium text-center text-white rounded-lg bg-default-brown-normal hover:bg-default-brown-dark focus:ring-4 focus:outline-none focus:ring-blue-300"
             >
               How it&apos;s made
             </a>
