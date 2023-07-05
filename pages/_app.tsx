@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Navbar from "../src/components/Navbar";
 import { Comfortaa, Sintony } from "next/font/google";
 import Footer from "../src/components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 const mono = Sintony({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
       <Footer className={`${sans.variable} ${mono.variable} font-sans bg-white rounded-lg shadow m-4 py-4`} />
+      <Analytics />
     </>
   );
 }
