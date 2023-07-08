@@ -1,0 +1,39 @@
+{
+  "banner": {
+    "traditional": "Traditionell",
+    "vn": "vietnamesischer",
+    "coffee": "Café",
+    "subtitle": {
+      "first": "Erleben Sie diesen einzigartigen",
+      "second": "Café mit uns!"
+    },
+    "button": "Los!"
+  },
+
+  "whatIs": {
+    "title": "Was ist vietnamesisches Café?",
+    "subtitle": "und warum wir ihn lieben...",
+    "text": "Ich liebe vietnamesisches Café für seine einzigartige Geschmackskombination aus dunkel gerösteten Bohnen und gesüßter Kondensmilch. Der Geschmack ist sanft und verführerisch, was mich immer wieder mehr wollen lässt. Der Brühprozess fördert Achtsamkeit und Wertschätzung für Einfachheit. Ob ich ihn heiß oder kalt, schwarz oder mit Milch möchte, vietnamesisches Café kommt meinen Vorlieben entgegen. Seine reiche Geschichte spiegelt Widerstandsfähigkeit und kulturelle Einflüsse wider. Insgesamt bietet vietnamesisches Café ein erfreuliches Erlebnis, das mich zu Momenten der Ruhe und reinen Freude transportiert."
+  },
+
+  "whatDo": {
+    "title": "Was wir tun",
+    "subtitle": "... und warum wir es tun",
+    "button": "Lese unsere Geschichte",
+    "text": {
+      "part1": "Wir haben es uns zur Aufgabe gemacht, vietnamesischen Café in die Schweiz zu bringen. Unsere Mission ist es, den einzigartigen und robusten Geschmack von vietnamesischem Café mit Schweizer Caféliebhabern zu teilen. Wir beziehen unsere Bohnen direkt aus Vietnam und bringen die traditionellen Brühtechniken in unsere lokalen Cafés und Häuser hier in der Schweiz.",
+      "part2": "Unsere Motivation stammt aus unserer Liebe zum vietnamesischen Café. Die ausgeprägte Fülle, die tiefen Aromen und die lebendige Cafékultur Vietnams haben uns fasziniert. Wir möchten dieses Erlebnis mit der Schweiz teilen, um den Caféhorizont zu erweitern und mehr Vielfalt in die Schweizer Cafélandschaft zu bringen. Wir sind leidenschaftlich daran interessiert, Kulturen durch Café zu verbinden, und wir glauben, dass vietnamesischer Café einen besonderen Platz auf dem Schweizer Markt hat."
+    }
+  },
+
+  "howAbout": {
+    "title": "Sind Sie interessiert?",
+    "subtitle": "wie wäre es mit etwas Café...",
+    "button": "Lesen Sie über unseren Café",
+    "text": {
+      "firstPart": "Sind Sie fasziniert von den einzigartigen und kräftigen Aromen des vietnamesischen Cafés? Ob Sie ein Cafébesitzer sind, der sein Angebot erweitern möchte, oder ein Caféliebhaber, der nach einem Geschmackserlebnis sucht, wir haben genau das Richtige für Sie. Unser Starterpaket ist eine perfekte Einführung in die reiche Welt des vietnamesischen Cafés, sorgfältig zusammengestellt, um ein authentisches Erlebnis zu liefern. Entdecken Sie die unverwechselbaren Geschmacksrichtungen und Brühmethoden, die den vietnamesischen Café auszeichnen. Wenn Sie Fragen haben oder weitere Unterstützung benötigen, steht unser Team immer bereit, Ihnen zu helfen. Nehmen Sie ",
+      "contactLink": "Kontakt",
+      "secondPart": " mit uns auf und starten Sie noch heute Ihre Reise in die Welt des vietnamesischen Cafés."
+    }
+  }
+}

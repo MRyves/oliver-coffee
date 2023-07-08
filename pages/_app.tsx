@@ -4,6 +4,7 @@ import Navbar from "../src/components/Navbar";
 import { Comfortaa, Sintony } from "next/font/google";
 import Footer from "../src/components/Footer";
 import { Analytics } from '@vercel/analytics/react';
+import { appWithTranslation } from "next-i18next";
 
 const mono = Sintony({
   subsets: ["latin"],
@@ -16,7 +17,7 @@ const sans = Comfortaa({
   variable: '--font-sans',
 })
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar className={`${sans.variable} ${mono.variable} font-sans bg-white border-b-gray-300 border-b-[1px]`} />
@@ -30,3 +31,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default appWithTranslation(App);

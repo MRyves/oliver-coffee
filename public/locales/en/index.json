@@ -1,0 +1,39 @@
+{
+  "banner": {
+    "traditional": "Traditional",
+    "vn": "vietnamese",
+    "coffee": "Coffee",
+    "subtitle": {
+      "first": "Experience this unique",
+      "second": "coffee with us!"
+    },
+    "button": "Show me!"
+  },
+
+  "whatIs": {
+    "title": "What is vietnamese coffee?",
+    "subtitle": "and why we love it...",
+    "text": "I love Vietnamese coffee for its unique flavor combination of dark-roasted beans and sweetened condensed milk. The taste is smooth and indulgent, leaving me wanting more. The brewing process encourages mindfulness and appreciation for simplicity. Whether I want it hot or iced, black or with milk, Vietnamese coffee caters to my preferences. Its rich history reflects resilience and cultural influences. Overall, Vietnamese coffee offers a delightful experience that transports me to moments of tranquility and pure enjoyment."
+  },
+
+  "whatDo": {
+    "title": "What we do",
+    "subtitle": "... and why we do it",
+    "button": "Read our Story",
+    "text": {
+      "part1": "We are in the business of introducing Vietnamese coffee to Switzerland. Our mission is to share the unique and robust flavor of Vietnamese coffee with Swiss coffee lovers. We carefully source our beans directly from Vietnam, and bring the traditional brewing techniques to our local cafés and homes here in Switzerland.",
+      "part2": "Our motivation comes from our love for Vietnamese coffee. The distinct richness, deep flavors, and the vibrant coffee culture of Vietnam captivated us. We want to share this experience with Switzerland, to broaden the coffee horizons and bring more diversity to the Swiss coffee scene. We are passionate about connecting cultures through coffee, and we believe that Vietnamese coffee has a special place in the Swiss market."
+    }
+  },
+
+  "howAbout": {
+    "title": "Are you interested?",
+    "subtitle": "how about some coffee...",
+    "button": "Read about our Coffee",
+    "text": {
+      "firstPart": "Are you intrigued by the unique and bold flavors of Vietnamese coffee? Whether you're a café owner looking to diversify your offerings, or a coffee enthusiast longing for a taste adventure, weve got you covered. Our starter pack is a perfect introduction to the rich world of Vietnamese coffee, carefully curated to deliver an authentic experience. Discover the distinctive tastes and brewing methods that make Vietnamese coffee stand out. If you have any questions or need further guidance, our team is always ready to assist you. Reach out to us via the ",
+      "contactLink": "contact ",
+      "secondPart": "page and embark on your Vietnamese coffee journey today."
+    }
+  }
+}

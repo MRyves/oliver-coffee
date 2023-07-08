@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaEnvelope, FaInstagram, FaTimes } from "react-icons/fa";
+import i18next from 'i18next';
 
 import Logo from "./Logo";
+import SwitchLang from "./SwitchLang";
 
 interface NavbarProps {
   className?: string;
@@ -51,6 +53,7 @@ export default function Navbar(props: NavbarProps) {
             </Link>
           </div>
           <div className="basis-1/3 flex justify-end space-x-4 text-black">
+            <SwitchLang />
             <FaInstagram className="fill-current h-6 w-6" />
             <Link onClick={() => setMenuOpen(false)} href="/contact">
               <FaEnvelope className="fill-current h-6 w-6" />
