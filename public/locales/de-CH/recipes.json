@@ -1,0 +1,78 @@
+{
+  "title": "Ihre Reise beginnt hier",
+  "subtitle": "Eine einfache Anleitung zur Zubereitung unseres Cafés",
+  "introText": "Bevor Sie in die vielfältige Welt der vietnamesischen Caférezepte eintauchen, müssen Sie den grundlegenden Schritt beherrschen: die Zubereitung der schwarzen Cafébasis. Keine Angst, dieser Prozess ist einfach und erfordert nur ein wenig Geduld. Folgen Sie diesen Schritten:",
+  "list": [
+    "Beginnen Sie damit, den Aluminiumfilter (im Starterset enthalten) gerade über der Absichtsmarke mit unseren speziell gemahlenen Cafébohnen zu füllen.",
+    "Platzieren Sie den Filter auf dem von Ihnen gewählten Glas oder Tasse.",
+    "Gießen Sie eine kleine Menge kochendes Wasser in den Filter. Dies dient zum Vorheizen des Kaffeepulvers. Warten Sie etwa 30 Sekunden.",
+    "Füllen Sie den Filter mit kochendem Wasser.",
+    "Jetzt kommt der Schönheit des Prozesses: Lehnen Sie sich zurück, entspannen Sie sich und lassen Sie die Magie geschehen. In der Regel dauert es etwa 20 Minuten, bis das Wasser vollständig durch den Filter gesickert ist.",
+    "Für ein noch reichhaltigeres Erlebnis wiederholen Sie die Schritte 3 bis 5 mit dem gleichen Kaffeepulver im Filter. Dieser zweite Brühgang entfaltet wirklich die Tiefe des Geschmacksprofils des Cafés.",
+    "Jetzt kommt der beste Teil: Genießen Sie Ihre Kreation und begeben Sie sich auf eine einzigartige Caféreise."
+  ],
+  "text": "Mit diesen Schritten sind Sie auf dem besten Weg, die exquisiten Geschmacksrichtungen und Texturen zu erkunden, die der vietnamesische Café zu bieten hat.",
+  "outroText": "Schauen Sie sich unten unsere traditionellen Rezepte an &darr;",
+  "button": "So wird's gemacht",
+  "ingredients": "Zutaten",
+  "directions": "Anweisungen",
+
+  "caphe den": {
+    "desc": "Der einfache und super starke schwarze Café. Perfekt für Espresso-Liebhaber und als Zutat für andere Rezepte.",
+    "ingredients": [
+      "Gemahlene Olivier Cafébohnen",
+      "Kochendes Wasser",
+      "Filter",
+      "Optional: Eis"
+    ],
+    "directions": "Siehe detaillierte Anweisungen am Anfang dieser Seite..."
+  },
+  "caphe sua": {
+    "desc": "Der Signature-Café Vietnams. Mein persönlicher Favorit, perfekt für warme Sommermorgen, nehmen Sie sich Zeit beim Trinken.",
+    "ingredients": [
+      "45ml Olivier Café",
+      "15 - 20ml Kondensmilch",
+      "Optional: Eis"
+    ],
+    "directions": "Gießen Sie den Café in Ihr Glas und fügen Sie die Kondensmilch hinzu. Gut mischen! Kondensmilch braucht eine Weile, um sich vollständig mit dem Café zu vermischen. Traditionell wird dieser Café als Eiskaffee serviert, aber Sie können die Mischung gerne wieder erhitzen, um eine warme Version zu genießen.",
+    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln Sie, schütteln Sie, schütteln Sie..."
+  },
+  "caphe latte nam": {
+    "desc": "Die vietnamesische Version des Caffè Latte. Starker, kräftiger Filterkaffee, der sanft mit süßer, cremiger Kondensmilch ausgeglichen wird.",
+    "ingredients": [
+      "30ml Olivier Café",
+      "15 - 20ml Kondensmilch",
+      "25ml Milch",
+      "Optional: Eis"
+    ],
+    "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Gießen Sie den Café in Ihr Glas und fügen Sie die Kondensmilch und Ihre Wahl von Milch hinzu. Gut mischen! Kondensmilch braucht eine Weile, um sich vollständig mit dem Café zu vermischen. Traditionell wird dieser Café als Eiskaffee serviert, aber Sie können die Mischung gerne wieder erhitzen, um eine warme Version zu genießen.",
+    "tip": "Tipp von Yves:<br /> Hafermilch funktioniert hervorragend..."
+  },
+  "caphe latte": {
+    "desc": "Nicht nur wie Ihr alltäglicher Latte, der Geschmack des vietnamesischen Cafés verleiht Ihrem Latte eine völlig andere Erfahrung.",
+    "ingredients": ["30ml Olivier Café", "25ml Milch", "Optional: Eis"],
+    "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Gießen Sie den Café in Ihr Glas und fügen Sie Ihre Wahl von Milch hinzu. Zögern Sie nicht, mit der Milch, die Sie hinzufügen, zu experimentieren. Hafermilch passt normalerweise sehr gut zu vietnamesischem Café."
+  },
+  "caphe coconut": {
+    "desc": "Genießen Sie den Luxus von vietnamesischem Kokos-Café - eine einzigartige Mischung aus reichem, aromatischem Café, wunderschön gemischt mit cremiger Kokosmilch und Eis.",
+    "ingredients": [
+      "45ml Olivier Café",
+      "30ml Kondensmilch",
+      "25ml Kokosmilch",
+      "Optional: Eis"
+    ],
+    "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Gießen Sie den Café in Ihr Glas und fügen Sie die Kokos- & Kondensmilch hinzu. Gut mischen! Traditionell wird dieser Café als Eiskaffee serviert, aber Sie können die Mischung gerne wieder erhitzen, um eine warme Version zu genießen.",
+    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln Sie, schütteln Sie, schütteln Sie..."
+  },
+  "caphe salted": {
+    "desc": "Café mit Salz? Ich weiß, klingt seltsam, aber probieren Sie es aus, dieses Erlebnis wird Sie überraschen und die Prise Salz tut Wunder für den Geschmack.",
+    "ingredients": [
+      "45ml Olivier Café",
+      "25ml Kondensmilch",
+      "5ml Milch",
+      "30ml Nicht-Milch-Creme",
+      "Eine Prise Himalaya-Salz"
+    ],
+    "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Fügen Sie zuerst die Kondensmilch hinzu, dann den Olivier Café mit der normalen Milch. Toppen Sie es mit der Nicht-Milch-Creme und fügen Sie als letzten Schritt die Prise Salz hinzu. Dieser Café wird normalerweise in Gläsern serviert, so dass alle unterschiedlichen Schichten der Zutaten sichtbar sind. Vor dem Trinken mit einem Löffel mischen."
+  }
+}

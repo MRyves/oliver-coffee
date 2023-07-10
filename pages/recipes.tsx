@@ -4,58 +4,45 @@ import recepiesList from "../public/recipes";
 import Title from "@/src/components/Title";
 import Subtitle from "@/src/components/Subtitle";
 import DripCoffeeImg from "@/public/drip-coffee.jpg";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-export default function recipes() {
+export default function Recipes() {
+
+const {t} = useTranslation("recipes");
+
   return (
     <>
       <section className="p-7 lg:p-3 max-w-screen-2xl mx-auto">
-        <Title text="Your journey begins here" />
-        <Subtitle text="A simple guide to brewing our coffee" />
+        <Title text={t("title")} />
+        <Subtitle text={t("subtitle")} />
         <div className="mt-3">
           <p>
-            Before you delve into the diverse world of Vietnamese coffee
-            recipes, you must master the fundamental step: brewing the black
-            coffee base. Fear not, this process is straightforward and requires
-            just a bit of patience. Follow these steps:
+            {t("introText")}
           </p>
           <br />
           <div className="flex align-middle justify-center">
             <div className="md:w-2/3">
               <ol className="list-decimal pl-4">
                 <li>
-                  Begin by filling the aluminium filter (included in your
-                  starter pack) just above the intention mark with our specially
-                  ground coffee beans.
+                  {t("list.0")}
                 </li>
-                <li>Position the filter on top of your chosen glass or cup.</li>
-                <li>
-                  Pour a small amount of boiling water into the filter. This is
-                  to preheat the coffee grounds. Wait for about 30 seconds.
+                <li>{t("list.1")}</li>
+                <li>{t("list.2")}</li>
+                <li>{t("list.3")}</li>
+                <li>{t("list.4")}
                 </li>
-                <li>Proceed to fill the filter with boiling water.</li>
-                <li>
-                  Now comes the beauty of the process: sit back, relax, and
-                  allow the magic to happen. It typically takes around 20
-                  minutes for the water to fully seep through the filter.
+                <li>{t("list.5")}
                 </li>
-                <li>
-                  For an even richer experience, repeat steps 3 to 5 using the
-                  same coffee grounds in the filter. This second brew truly
-                  unravels the depth of the coffee&apos;s flavor profile.
-                </li>
-                <li>
-                  Now comes the best part: savor your creation and embark on a
-                  unique coffee journey.
+                <li>{t("list.6")}
                 </li>
               </ol>
               <br />
               <p>
-                With these steps, you&apos;ll be well on your way to exploring
-                the exquisite tastes and textures that Vietnamese coffee has to
-                offer.
+              {t("text")}
               </p>
               <p>
-                Check out our traditional recipes below &darr;
+              {t("outroText")}
               </p>
             </div>
             <div className="hidden md:block">
@@ -84,4 +71,12 @@ export default function recipes() {
       </section>
     </>
   );
+}
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["recipes", "footer", "header"])),
+    },
+  };
 }

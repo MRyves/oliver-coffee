@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "title": "Das ist unser Café",
+    "subtitle": {
+      "1": "Bestellen Sie hier Ihr Starterset,",
+      "2": "direkt aus Vietnam"
+    },
+    "button": "Mehr Infos!"
+  },
+  "whatIs": {
+    "title": "Was ist im Starterset",
+    "subtitle": "und wie bekomme ich eins...",
+    "text": "Wir stellen das perfekte Starterset für die Zubereitung von vietnamesischem Café vor! Dieses Komplettpaket beinhaltet:",
+    "list": {
+      "1": "Filter: Ein hochwertiger Kaffeefilter, speziell für die Zubereitung von vietnamesischem Café. Er garantiert jedes Mal eine glatte und kräftige Tasse Café.",
+      "2": "1kg Olivier Café: Bereits gemahlene Kaffeebohnen direkt aus Vietnam",
+      "3": "1 Dose Kondensmilch: Gönnen Sie sich die traditionelle Süße des vietnamesischen Cafés mit einer Dose reicher und cremiger Kondensmilch. Sie verleiht Ihrem Gebräu eine einzigartige Note und schafft die perfekte Balance der Aromen",
+      "4": "Kleine Überraschung: Als zusätzlichen Leckerbissen haben wir eine kleine Überraschung in Ihr Starterset gepackt! Entdecken Sie ein kleines Extra, um Ihre Cafézubereitungserfahrung noch weiter zu verbessern"
+    },
+    "button": "Holen Sie sich Ihr Starterset"
+  },
+  "whatDo": {
+    "title": "Was können Sie mit dem Starterset machen?",
+    "subtitle": "... die traditionellen Rezepte",
+    "text": "Tauchen Sie ein in die Welt des vietnamesischen Cafés mit unserem sorgfältig zusammengestellten Starterset. Es ist Ihr Tor, um die einzigartigen Aromen und Brühtraditionen Vietnams direkt in Ihrer Küche zu erleben. Mit diesem Set haben Sie die Möglichkeit, Ihren eigenen authentischen vietnamesischen Filterkaffee zuzubereiten, bekannt für seine kräftigen und befriedigenden Aromen. Experimentieren Sie mit unterschiedlichen Stärken, fügen Sie gesüßte Kondensmilch für einen traditionellen vietnamesischen Geschmack hinzu, oder genießen Sie ihn schwarz, um das wahre Wesen der Bohnen zu schmecken. Ob Sie eine Kaffeeverkostungsparty veranstalten oder einen ruhigen Morgen genießen, unser vietnamesisches Café-Starterset entführt Sie in die lebendige Cafékultur Vietnams.",
+    "button": "Zu den Rezepten"
+  }
+}
