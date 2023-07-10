@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaEnvelope, FaInstagram, FaTimes } from "react-icons/fa";
-import i18next from 'i18next';
 
 import Logo from "./Logo";
 import SwitchLang from "./SwitchLang";
+import { useTranslation } from "next-i18next";
 
 interface NavbarProps {
   className?: string;
@@ -12,6 +12,8 @@ interface NavbarProps {
 
 export default function Navbar(props: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const { t } = useTranslation("header");
 
   const handleToggle = () => {
     setMenuOpen(!menuOpen);
@@ -27,19 +29,19 @@ export default function Navbar(props: NavbarProps) {
                 href="/coffee"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
-                Coffee
+                {t("coffee")}
               </Link>
               <Link
                 href="/recipes"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
-                Recipes
+                {t("recipes")}
               </Link>
               <Link
                 href="/story"
                 className="text-black px-3 py-2 rounded-md text-md font-medium"
               >
-                Our Story
+                {t("story")}
               </Link>
             </div>
           </div>
@@ -81,28 +83,28 @@ export default function Navbar(props: NavbarProps) {
               href="/"
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
-              Home
+              {t("home")}
             </Link>
             <Link
               onClick={() => setMenuOpen(false)}
               href="/coffee"
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
-              Coffee
+              {t("coffee")}
             </Link>
             <Link
               onClick={() => setMenuOpen(false)}
               href="/recipes"
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
-              Recipes
+              {t("recipes")}
             </Link>
             <Link
               onClick={() => setMenuOpen(false)}
               href="/story"
               className="text-black block px-3 py-2 rounded-md text-base font-medium"
             >
-              Our Story
+              {t("story")}
             </Link>
           </div>
         </div>
