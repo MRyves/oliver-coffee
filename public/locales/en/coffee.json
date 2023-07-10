@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "title": "This is our Coffee",
+    "subtitle": {
+      "1": "Oder your starterpack here,",
+      "2": "straight outta Vietnam"
+    },
+    "button": "More Info!"
+  },
+  "whatIs": {
+    "title": "What is in the starterpack",
+    "subtitle": "and how do I get one...",
+    "text": "Introducing the perfect starter kit for brewing Vietnamese coffee! This all-in-one package includes:",
+    "list": {
+      "1": "Filter: A high-quality coffee filter, designed specifically for Vietnamese coffee brewing. It ensures a smooth and robust cup of coffee every time.",
+      "2": "1kg Olivier Coffee: Already grouded coffee beans straight out of Vietnam",
+      "3": "1 Can Condensed Milk: Indulge in the traditional sweetness of Vietnamese coffee with a can of rich and creamy condensed milk. It unique touch to your brew, creating the perfect balance of flavors",
+      "4": "Small Surprise: As an extra treat, we've included a small surprise in your starter kit! Discover a little something special enhance your coffee brewing journey even further"
+    },
+    "button": "Get your Starerpack"
+  },
+  "whatDo": {
+    "title": "What can you do with the Starterpack?",
+    "subtitle": "... the traditional recipes",
+    "text": "Immerse yourself in the world of Vietnamese coffee with our carefully curated starter pack. It's a gateway to experiencing the unique flavors and brewing traditions of Vietnam, right in your kitchen. This pack gives you the opportunity to prepare your own authentic Vietnamese drip coffee, renowned for its robust and satisfying flavors. Experiment with varying strengths, add sweetened condensed milk for a traditional Vietnamese taste, or enjoy it black to savor the beans' true essence. Whether you're hosting a coffee tasting party or enjoying a quiet morning, our Vietnamese coffee starter pack will transport you to the vibrant coffee culture of Vietnam.",
+    "button": "Go to the Recipes"
+  }
+}
