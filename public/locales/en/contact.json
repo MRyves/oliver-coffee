@@ -1,0 +1,26 @@
+{
+    "banner": {
+        "title": "We would love to hear from you",
+        "subtitle": "and we will get back to you very soon"
+    },
+    "form": {
+        "name": {
+          "label": "Your Name *",
+          "placeholder": "e.g. Yves Hendseth"
+        },
+        "email": {
+          "label": "Your E-Mail *",
+          "placeholder": "e.g. john.doe@gmail.com"
+        },
+        "message": {
+          "label": "Your message",
+          "placeholder": "Ask us anything!"
+        },
+        "newsletter": {
+          "label": "Receive our Newsletter"
+        },
+        "button": "Send",
+        "success": "Thank you! We have received your message and will get back to you shortly",
+        "error": "We're really sorry! There was an error sending your message. Please try again later"
+      }
+}

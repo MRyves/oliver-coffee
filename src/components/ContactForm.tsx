@@ -1,10 +1,12 @@
-import { Message } from "postcss";
 import { FormEvent, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { BsEnvelopeHeart } from "react-icons/bs";
 
 type MessageSentState = null | "success" | "error";
 
 export default function ContactForm() {
+  const {t} = useTranslation("contact", {keyPrefix: "form"});
+
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
@@ -55,7 +57,7 @@ export default function ContactForm() {
             htmlFor="inp-name"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Your Name *
+            {t("name.label")}
           </label>
           <input
             id="inp-name"
@@ -64,7 +66,7 @@ export default function ContactForm() {
             value={name}
             onChange={(e) => setName(e?.target?.value)}
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500"
-            placeholder="e.g. Yves Hendseth"
+            placeholder={t("name.placeholder")}
             required
           />
         </div>
@@ -73,7 +75,7 @@ export default function ContactForm() {
             htmlFor="inp-email"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Your Email *
+            {t("email.label")}
           </label>
           <input
             id="inp-email"
@@ -82,7 +84,7 @@ export default function ContactForm() {
             value={email}
             onChange={(e) => setEmail(e?.target?.value)}
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500"
-            placeholder="e.g. yhendseth@gmail.com"
+            placeholder={t("email.label")}
             required
           />
         </div>
@@ -91,14 +93,14 @@ export default function ContactForm() {
             htmlFor="inp-message"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Your message
+            {t("message.label")}
           </label>
           <textarea
             id="inp-message"
             value={message}
             onChange={(e) => setMessage(e?.target?.value)}
             className="block shadow appearance-none border rounded w-full text-gray-700 text-sm py-2 px-3"
-            placeholder="Ask us anything!"
+            placeholder={t("message.placeholder")}
             rows={5}
             required
           ></textarea>
@@ -115,7 +117,7 @@ export default function ContactForm() {
             htmlFor="checkbox-newsletter"
             className="inline-block text-sm italic ml-2"
           >
-            Receive our Newsletter
+            {t("newsletter.label")}
           </label>
         </div>
         <div className="mb-4">
@@ -123,20 +125,18 @@ export default function ContactForm() {
             type="submit"
             className="inline-flex justify-center align-middle rounded w-full h-full shadow p-2 text-white bg-default-brown-normal"
           >
-            <span>Send</span>
+            <span>{t("button")}</span>
             <BsEnvelopeHeart className="fill-current w-6 h-6 ml-3" />
           </button>
         </div>
         {isMessageSent === "success" && (
           <div>
-            Thank you! We have received your message and will get back to you
-            shortly &#10084;
+            {t("success")} &#10084;
           </div>
         )}
         {isMessageSent === "error" && (
           <div className="text-red-600">
-            We&apos;re really sorry! There was an error sending your message.
-            Please try again later &#10084;
+            {t("error")} &#10084;
           </div>
         )}
       </form>

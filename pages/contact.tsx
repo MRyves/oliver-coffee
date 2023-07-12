@@ -1,9 +1,11 @@
 import ContactBanner from "../src/components/Banners/ContactBanner";
 import ContactForm from "../src/components/ContactForm";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-export default function Contact(){
-    return (
-        <>
+
+export default function Contact() {
+  return (
+    <>
       <ContactBanner />
       <section
         id="contact"
@@ -12,5 +14,13 @@ export default function Contact(){
         <ContactForm />
       </section>
     </>
-    );
+  );
+}
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["contact", "footer", "header"])),
+    },
+  };
 }

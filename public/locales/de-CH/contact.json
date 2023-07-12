@@ -1,0 +1,26 @@
+{
+    "banner": {
+        "title": "Wir würden gerne von Ihnen hören",
+        "subtitle": "und wir werden uns sehr bald bei Ihnen melden"
+    },
+    "form": {
+        "name": {
+          "label": "Ihr Name *",
+          "placeholder": "z.B. Yves Hendseth"
+        },
+        "email": {
+          "label": "Ihre E-Mail *",
+          "placeholder": "z.B. john.doe@gmail.com"
+        },
+        "message": {
+          "label": "Ihre Nachricht",
+          "placeholder": "Fragen Sie uns alles!"
+        },
+        "newsletter": {
+          "label": "Erhalten Sie unseren Newsletter"
+        },
+        "button": "Senden",
+        "success": "Vielen Dank! Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden",
+        "error": "Das tut uns wirklich leid! Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es später noch einmal"
+      }
+}
