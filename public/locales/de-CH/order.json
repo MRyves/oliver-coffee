@@ -1,0 +1,41 @@
+{
+    "banner": {
+        "title": "Bestell dein Starterset!",
+        "subtitle": "und wir werden uns bei dir melden"
+      },
+    "texts": [
+      "Vielen Dank, dass Sie sich dafür entschieden haben, diese Geschmacksreise mit Olivier Coffee anzutreten!",
+      "Um Ihr Startpaket zu bestellen, füllen Sie einfach das Formular auf dieser Seite aus. Jedes Paket kostet 50 CHF und enthält alles, was Sie brauchen, um rund 120 Tassen unseres köstlichen vietnamesischen Cafés zu brühen.",
+      "Sobald Sie das Formular abgeschickt haben, werde ich mich persönlich bei Ihnen melden, um Ihre Bestellung zu bestätigen und die Details zu besprechen. Wir können über Ihre speziellen Bedürfnisse sprechen, alle Fragen beantworten, die Sie haben könnten, und sicherstellen, dass Ihre Olivier Coffee Erfahrung genau auf Sie zugeschnitten ist.",
+      "Also, bereit, Ihre eigene Geschichte zu brühen? Bestellen Sie jetzt und lassen Sie uns dieses geschmackvolle Abenteuer gemeinsam beginnen!"
+    ],
+    "form": {
+      "name": {
+        "label": "Ihr Name *",
+        "placeholder": "z.B. Yves Hendseth"
+      },
+      "email": {
+        "label": "Ihre E-Mail *",
+        "placeholder": "z.B. john.doe@gmail.com"
+      },
+      "phone": {
+        "label": "Ihre Telefonnummer",
+        "placeholder": "z.B. 079 854 XX XX",
+        "tooltip": [
+          "Wir halten die Dinge gerne einfach und daher haben Sie die Möglichkeit, Ihre Handynummer zu geben, um von uns per WhatsApp oder SMS zu hören.",
+          "Machen Sie sich keine Sorgen, wir werden Ihre Daten niemandem geben!"
+        ]
+      },
+      "message": {
+          "label": "Geben Sie uns einen Hinweis!",
+          "placeholder": "Erzählen Sie uns, wie Sie auf unsere Seite gestoßen sind und fügen Sie Ihre Adresse für eine schnellere Lieferung hinzu..."
+      },
+      "newsletter": {
+          "label": "Erhalten Sie unseren Newsletter"
+      },
+      "button": "Bestellen Sie unser Startpaket",
+      "success": "Vielen Dank! Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden",
+      "error": "Das tut uns wirklich leid! Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es später noch einmal"
+    }
+  }
+  

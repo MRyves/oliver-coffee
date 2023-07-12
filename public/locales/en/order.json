@@ -1,0 +1,40 @@
+{
+  "banner": {
+    "title": "Order your Starterpack!",
+    "subtitle": "and we will reach out to you very soon"
+  },
+  "texts": [
+    "Thank you for choosing to embark on this journey of taste with Olivier Coffee!",
+    "To order your starter pack, simply fill out the form on this page. Each pack costs 50 CHF and includes everything you need to brew around 120 cups of our delicious Vietnamese coffee.",
+    "Once you've submitted the form, I will personally reach out to you to confirm your order and discuss the details. We can talk about your specific needs, answer any questions you might have, and ensure that your Olivier Coffee experience is tailored just for you.",
+    "So, ready to brew your own story? Order now, and let&#39;s start this flavorful adventure together!"
+  ],
+  "form": {
+    "name": {
+      "label": "Your Name *",
+      "placeholder": "e.g. Yves Hendseth"
+    },
+    "email": {
+      "label": "Your E-Mail *",
+      "placeholder": "e.g. john.doe@gmail.com"
+    },
+    "phone": {
+      "label": "Your Phone number",
+      "placeholder": "e.g. 079 854 XX XX",
+      "tooltip": [
+        "We like to keep things simple and therefor you have the option to give your mobile phone number to hear from us via WhatsApp or SMS.",
+        "Don't worry, we will not give your data to anyone! "
+      ]
+    },
+    "message": {
+      "label": "Give us a heads-up!",
+      "placeholder": "Tell us how you found our page and add your address for faster delivery..."
+    },
+    "newsletter": {
+      "label": "Receive our Newsletter"
+    },
+    "button": "Order our Starterpack",
+    "success": "Thank you! We have received your message and will get back to you shortly",
+    "error": "We're really sorry! There was an error sending your message. Please try again later"
+  }
+}

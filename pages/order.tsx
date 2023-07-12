@@ -1,5 +1,6 @@
 import OrderBanner from "../src/components/Banners/OrderBanner";
 import OrderForm from "../src/components/OrderForm";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Order() {
   return (
@@ -14,4 +15,12 @@ export default function Order() {
       </section>
     </>
   );
+}
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["order", "footer", "header"])),
+    },
+  };
 }
