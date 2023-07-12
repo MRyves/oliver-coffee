@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import styles from "../../../styles/Banners/OrderBanner.module.css";
 import Subtitle from "../Subtitle";
 import Title from "../Title";

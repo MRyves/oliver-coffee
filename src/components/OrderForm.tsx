@@ -145,7 +145,7 @@ export default function OrderForm() {
             htmlFor="inp-message"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            {t("from.message.label")}
+            {t("form.message.label")}
           </label>
           <textarea
             id="inp-message"
