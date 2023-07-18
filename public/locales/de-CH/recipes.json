@@ -35,7 +35,7 @@
       "Optional: Eis"
     ],
     "directions": "Gießen Sie den Café in Ihr Glas und fügen Sie die Kondensmilch hinzu. Gut mischen! Kondensmilch braucht eine Weile, um sich vollständig mit dem Café zu vermischen. Traditionell wird dieser Café als Eiskaffee serviert, aber Sie können die Mischung gerne wieder erhitzen, um eine warme Version zu genießen.",
-    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln Sie, schütteln Sie, schütteln Sie..."
+    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln, schütteln, schütteln..."
   },
   "caphe latte nam": {
     "desc": "Die vietnamesische Version des Caffè Latte. Starker, kräftiger Filterkaffee, der sanft mit süßer, cremiger Kondensmilch ausgeglichen wird.",
@@ -54,7 +54,7 @@
     "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Gießen Sie den Café in Ihr Glas und fügen Sie Ihre Wahl von Milch hinzu. Zögern Sie nicht, mit der Milch, die Sie hinzufügen, zu experimentieren. Hafermilch passt normalerweise sehr gut zu vietnamesischem Café."
   },
   "caphe coconut": {
-    "desc": "Genießen Sie den Luxus von vietnamesischem Kokos-Café - eine einzigartige Mischung aus reichem, aromatischem Café, wunderschön gemischt mit cremiger Kokosmilch und Eis.",
+    "desc": "Kokos-Café - eine einzigartige Mischung aus Café, gemischt mit cremiger Kokosmilch und Eis.",
     "ingredients": [
       "45ml Olivier Café",
       "30ml Kondensmilch",
@@ -62,10 +62,10 @@
       "Optional: Eis"
     ],
     "directions": "Brühen Sie den Olivier Café, wie Sie es für einfachen schwarzen Café tun würden. Gießen Sie den Café in Ihr Glas und fügen Sie die Kokos- & Kondensmilch hinzu. Gut mischen! Traditionell wird dieser Café als Eiskaffee serviert, aber Sie können die Mischung gerne wieder erhitzen, um eine warme Version zu genießen.",
-    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln Sie, schütteln Sie, schütteln Sie..."
+    "tip": "Tipp von den Einheimischen:<br /> Geben Sie die Zutaten in einen Shaker und schütteln, schütteln, schütteln..."
   },
   "caphe salted": {
-    "desc": "Café mit Salz? Ich weiß, klingt seltsam, aber probieren Sie es aus, dieses Erlebnis wird Sie überraschen und die Prise Salz tut Wunder für den Geschmack.",
+    "desc": "Café mit Salz? Ich weiß, klingt seltsam, aber probieren Sie es aus, dieses Erlebnis wird Sie überraschen!",
     "ingredients": [
       "45ml Olivier Café",
       "25ml Kondensmilch",

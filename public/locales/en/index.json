@@ -20,10 +20,10 @@
     "title": "What we do",
     "subtitle": "... and why we do it",
     "button": "Read our Story",
-    "text": {
-      "part1": "We are in the business of introducing Vietnamese coffee to Switzerland. Our mission is to share the unique and robust flavor of Vietnamese coffee with Swiss coffee lovers. We carefully source our beans directly from Vietnam, and bring the traditional brewing techniques to our local cafés and homes here in Switzerland.",
-      "part2": "Our motivation comes from our love for Vietnamese coffee. The distinct richness, deep flavors, and the vibrant coffee culture of Vietnam captivated us. We want to share this experience with Switzerland, to broaden the coffee horizons and bring more diversity to the Swiss coffee scene. We are passionate about connecting cultures through coffee, and we believe that Vietnamese coffee has a special place in the Swiss market."
-    }
+    "text": [
+      "We are in the business of introducing Vietnamese coffee to Switzerland. Our mission is to share the unique and robust flavor of Vietnamese coffee with Swiss coffee lovers. We carefully source our beans directly from Vietnam, and bring the traditional brewing techniques to our local cafés and homes here in Switzerland.",
+      "Our motivation comes from our love for Vietnamese coffee. The distinct richness, deep flavors, and the vibrant coffee culture of Vietnam captivated us. We want to share this experience with Switzerland, to broaden the coffee horizons and bring more diversity to the Swiss coffee scene. We are passionate about connecting cultures through coffee, and we believe that Vietnamese coffee has a special place in the Swiss market."
+    ]
   },
 
   "howAbout": {

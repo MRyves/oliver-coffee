@@ -60,13 +60,20 @@ export default function Home() {
             </p>
           </div>
           <div className="self-center pb-2 md:pb-0 md:text-lg md:w-3/5 md:text-right">
-            {t("whatDo.text.part1")}
-            <br />
-            {t("whatDo.text.part2")}
+            {(t("whatDo.text", { returnObjects: true }) as string[]).map(
+              (text, index) => (
+                <>
+                  <span key={index}>
+                    {index === 0 ? "" : <br />}
+                    {text}
+                  </span>
+                </>
+              )
+            )}
             <p className="hidden md:block text-center mt-2">
               <Link href="/story" passHref>
                 <button className="p-3 rounded text-white bg-default-brown-normal">
-                  {t('whatDo.button')}
+                  {t("whatDo.button")}
                 </button>
               </Link>
             </p>
@@ -77,8 +84,8 @@ export default function Home() {
         <hr className="h-px my-8 mx-auto" />
       </div>
       <section className="px-7 lg:px-3 max-w-screen-2xl mx-auto mt-5">
-        <Title text={t('howAbout.title')} />
-        <Subtitle text={t('whatDo.subtitle')} />
+        <Title text={t("howAbout.title")} />
+        <Subtitle text={t("whatDo.subtitle")} />
         <div className="flex flex-col-reverse md:flex-row justify-between mt-5">
           <div className="block w-full md:w-1/3 h-fit">
             <Image
@@ -91,21 +98,21 @@ export default function Home() {
             <p className="md:hidden text-center mt-2">
               <Link href="/coffee" passHref>
                 <button className="w-full p-3 rounded text-white bg-default-brown-normal">
-                  {t('howAbout.button')}
+                  {t("howAbout.button")}
                 </button>
               </Link>
             </p>
           </div>
           <div className="md:w-3/5 pb-2 md:text-lg self-center">
-            {t('howAbout.text.firstPart')}
+            {t("howAbout.text.firstPart")}
             <Link href="/contact" className="text-default-brown-dark">
-              {t('howAbout.text.contactLink')}
+              {t("howAbout.text.contactLink")}
             </Link>
-            {t('howAbout.text.secondPart')}
+            {t("howAbout.text.secondPart")}
             <p className="hidden md:block text-center mt-2">
               <Link href="/coffee" passHref>
                 <button className="p-3 rounded text-white bg-default-brown-normal">
-                  {t('howAbout.button')}
+                  {t("howAbout.button")}
                 </button>
               </Link>
             </p>
