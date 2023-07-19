@@ -62,7 +62,7 @@ const {t} = useTranslation("recipes");
         <Subtitle text="Have fun experimenting!" />
         <div
           id="recipes-list"
-          className="grid grid-cols-1 gap-y-5 justify-items-center pt-3 md:grid-cols-3 md:px-20 md:gap-x-1"
+          className="grid grid-cols-1 gap-y-5 justify-items-center pt-3 md:grid-cols-2 lg:grid-cols-3 lg:px-20 lg:gap-x-1"
         >
           {recepiesList.map((r) => (
             <RecipeCard key={r.id} {...r} />

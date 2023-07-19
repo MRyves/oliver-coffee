@@ -52,7 +52,7 @@ export default function RecipeCard(props: RecipeCardProps) {
           </div>
         </div>
         <div className={styles.cardBack}>
-          <h5 className="text-xl font-bold tracking-tight text-gray-900 underline">
+          <h5 className="md:text-xl font-bold tracking-tight text-gray-900 underline">
             {translate("ingredients")}
           </h5>
           <ul className="tracking-tight list-disc list-inside">
@@ -60,12 +60,12 @@ export default function RecipeCard(props: RecipeCardProps) {
               <li key={i}>{t(`ingredients.${index}`)}</li>
             ))}
           </ul>
-          <h5 className="text-xl font-bold tracking-tight text-gray-900 mt-3 underline">
+          <h5 className="md:text-xl font-bold tracking-tight text-gray-900 mt-3 underline">
             {translate("directions")}
           </h5>
-          <p className="mb-2">{t("directions")}</p>
+          <p className="mb-2 text-sm md:text-base">{t("directions")}</p>
           <p
-            className="italic"
+            className="italic text-sm md:text-base"
             dangerouslySetInnerHTML={{ __html: !!props.tip && t("tip") || "" }}
           ></p>
         </div>
